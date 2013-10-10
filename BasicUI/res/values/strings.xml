@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BasicUI</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="profile">Profile</string>
+    <string name="logout"><u>Logout</u></string>
+    <string name="address">Address:</string>
+    <string name="tvAddress">Ha Noi</string>
+    <string name="birthday">Birthday:</string>
+    <string name="tvBirthday">1/1/1999</string>
+    <string name="online">Online:</string>
+    <string name="tvOnline">12:06 AM</string>
+    <string name="gender">Gender</string>
+    <string name="tvGender">Male</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="listFriends">Show friend list</string>
+
+</resources>
