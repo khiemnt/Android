@@ -35,7 +35,7 @@ public class LoginActivity extends Activity
                 if (editTextUserName.getText().toString().equals("android") && editTextPassword.getText().toString().equals("1234"))
                 {
                     Intent i = new Intent(getApplicationContext(), ProfileActivity.class);
-                    i.putExtra("username",editTextUserName.getText().toString()) ;
+                    i.putExtra("username", editTextUserName.getText().toString());
                     startActivity(i);
                 }
                 else

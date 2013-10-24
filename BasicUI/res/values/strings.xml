@@ -5,7 +5,9 @@
     <string name="password">Password:</string>
     <string name="login">Login</string>
     <string name="profile">Profile</string>
-    <string name="logout"><u>Logout</u></string>
+    <string name="logout">
+        <u>Logout</u>
+    </string>
     <string name="address">Address:</string>
     <string name="tvAddress">Ha Noi</string>
     <string name="birthday">Birthday:</string>

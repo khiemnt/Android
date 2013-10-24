@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+    <component name="AndroidDesignerProfile">
+        <option name="fullProfile">
+            <profile>
+                <option name="device" value="2.7in QVGA"/>
+                <option name="deviceConfiguration" value="Portrait"/>
+                <option name="targetHashString" value="android-14"/>
+                <option name="theme" value="Theme"/>
+            </profile>
+        </option>
+        <option name="selection" value="[Full]"/>
+    </component>
+    <component name="AndroidLayoutPreviewToolWindow">
+        <option name="state">
+            <GlobalState>
+                <option name="device" value="2.7in QVGA"/>
+                <option name="dockMode" value=""/>
+                <option name="nightMode" value="notnight"/>
+                <option name="targetHashString" value="android-14"/>
+                <option name="theme" value="Theme"/>
+                <option name="visible" value="false"/>
+            </GlobalState>
+        </option>
+    </component>
+    <component name="AndroidLogFilters">
+        <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR"/>
+    </component>
+    <component name="ChangeListManager">
+        <list default="true" id="03718a44-ddd7-4f08-9926-d589f4bd93cf" name="Default" comment=""/>
+        <ignored path="SQLiteSample.iws"/>
+        <ignored path=".idea/workspace.xml"/>
+        <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/MyActivity.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382413293456" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/build.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382408723648" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/res/layout/main.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382409059648" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/res/values/strings.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382408723648" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/AndroidManifest.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382413185666" ignored="false"/>
+        <file path="/main.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382580712561" ignored="false"/>
+        <file path="/Dummy.txt" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382512947375" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/res/layout/fragment.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382408975754" ignored="false"/>
+        <file path="/MyActivity.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382582524766"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/CountingFragment.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382412572991" ignored="false"/>
+        <file path="/CountingFragment.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382411820230"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/gen/com/example/Fragment/BuildConfig.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382413282660" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/gen/com/example/Fragment/Manifest.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382412631839" ignored="false"/>
+        <file path="/fragment.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382523471447"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/gen/com/example/Fragment/R.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382413282660" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/res/layout/fragment2.xml"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382413305695" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/Test.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382411997870" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/test.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382412020706" ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/TestFragment.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382412301231" ignored="false"/>
+        <file path="/TestFragment.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382412301231"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/HoodFragment.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382413280207" ignored="false"/>
+        <file path="/HoodFragment.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382413280207"
+              ignored="false"/>
+        <file path="/add_new.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382414354550"
+              ignored="false"/>
+        <file path="/listStudent.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382414435315"
+              ignored="false"/>
+        <file path="/AddStudentFragment.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382511484418"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/gen/com/example/SQLiteSample/BuildConfig.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382415496092" ignored="false"/>
+        <file path="$PROJECT_DIR$/gen/com/example/SQLiteSample/R.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382415496092" ignored="false"/>
+        <file path="/ShowStudentsFragment.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382511384889"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/gen/com/example/SQLiteSample/Manifest.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382415496092" ignored="false"/>
+        <file path="/Student.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382424953653"
+              ignored="false"/>
+        <file path="/DataBaseWrapper.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382417963206"
+              ignored="false"/>
+        <file path="/StudentOperation.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382581829428"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/src/com/example/SampleSqlite2/MyActivity.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382510801993" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/res/layout/main.xml"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382501513437" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/res/values/strings.xml"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382432718119" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/AndroidManifest.xml"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382437658110" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/build.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382432718406" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/.idea/workspace.xml"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382435980864" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/src/com/example/SampleSqlite2/SQLiteOpenHelper.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382432744646" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/src/com/example/SampleSqlite2/DataBaseWrapper.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382496643089" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/src/com/example/SampleSqlite2/Student.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382432805839" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/src/com/example/SampleSqlite2/StudentOperations.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382510864977" ignored="false"/>
+        <file path="/AndroidManifest.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382437595037"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/../untitled/res/values/strings.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382494906057" ignored="false"/>
+        <file path="$PROJECT_DIR$/../untitled/AndroidManifest.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382494906228" ignored="false"/>
+        <file path="$PROJECT_DIR$/../untitled/res/layout/main.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382494906728" ignored="false"/>
+        <file path="$PROJECT_DIR$/../untitled/src/com/example/untitled/MyActivity.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382494906728" ignored="false"/>
+        <file path="$PROJECT_DIR$/../untitled/build.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382494906728" ignored="false"/>
+        <file path="$PROJECT_DIR$/../untitled/.idea/workspace.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382494994822" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite3/src/com/example/SampleSqlite3/MyActivity.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382495015545" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite3/build.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf"
+              time="1382495015545" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite3/res/layout/main.xml"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382495597705" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite3/res/values/strings.xml"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382495015545" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite3/AndroidManifest.xml"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382495135928" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite3/src/com/example/SampleSqlite3/SQLiteExample.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382495115079" ignored="false"/>
+        <file path="/a.dummy" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382581867889" ignored="false"/>
+        <file path="/list_students.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382501734437"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/../../Team3_again/OnlineDio/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382503564099" ignored="false"/>
+        <file path="/add_new_student.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382504906565"
+              ignored="false"/>
+        <file path="/StudentOperations.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382510855135"
+              ignored="false"/>
+        <file path="/ArrayAdapterCustom.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382515280913"
+              ignored="false"/>
+        <file path="/item.xml" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382513181496" ignored="false"/>
+        <file path="/CustomAdapter.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382515687008"
+              ignored="false"/>
+        <file path="$USER_HOME$/Downloads/WeatherActivity/vatsag.samples.weatherdisplay.WeatherActivity/project.properties"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382521862704" ignored="false"/>
+        <file path="$PROJECT_DIR$/../../demo/sqlite/trunk/ORMLite/project.properties"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382522271103" ignored="false"/>
+        <file path="/CustomerAdapter.java" changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382523561834"
+              ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/gen/com/example/SampleSqlite2/R.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382579757765" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/gen/com/example/SampleSqlite2/BuildConfig.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382579757765" ignored="false"/>
+        <file path="$PROJECT_DIR$/../SampleSqlite2/gen/com/example/SampleSqlite2/Manifest.java"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382579757765" ignored="false"/>
+        <file path="$PROJECT_DIR$/../../demo/sqlite/trunk/Preference/project.properties"
+              changelist="03718a44-ddd7-4f08-9926-d589f4bd93cf" time="1382583161506" ignored="false"/>
+        <option name="TRACKING_ENABLED" value="true"/>
+        <option name="SHOW_DIALOG" value="false"/>
+        <option name="HIGHLIGHT_CONFLICTS" value="true"/>
+        <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false"/>
+        <option name="LAST_RESOLUTION" value="IGNORE"/>
+    </component>
+    <component name="ChangesViewManager" flattened_view="true" show_ignored="false"/>
+    <component name="CreatePatchCommitExecutor">
+        <option name="PATCH_PATH" value=""/>
+    </component>
+    <component name="DaemonCodeAnalyzer">
+        <disable_hints/>
+    </component>
+    <component name="DebuggerManager">
+        <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true"/>
+        <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+            <breakpoint>
+                <option name="NOTIFY_CAUGHT" value="true"/>
+                <option name="NOTIFY_UNCAUGHT" value="true"/>
+                <option name="ENABLED" value="false"/>
+                <option name="LOG_ENABLED" value="false"/>
+                <option name="LOG_EXPRESSION_ENABLED" value="false"/>
+                <option name="SUSPEND_POLICY" value="SuspendAll"/>
+                <option name="SUSPEND" value="true"/>
+                <option name="COUNT_FILTER_ENABLED" value="false"/>
+                <option name="COUNT_FILTER" value="0"/>
+                <option name="CONDITION_ENABLED" value="true"/>
+                <option name="CLASS_FILTERS_ENABLED" value="false"/>
+                <option name="INSTANCE_FILTERS_ENABLED" value="false"/>
+                <option name="CONDITION" value=""/>
+                <option name="LOG_MESSAGE" value=""/>
+            </breakpoint>
+            <breakpoint>
+                <option name="NOTIFY_CAUGHT" value="true"/>
+                <option name="NOTIFY_UNCAUGHT" value="true"/>
+                <option name="ENABLED" value="false"/>
+                <option name="LOG_ENABLED" value="false"/>
+                <option name="LOG_EXPRESSION_ENABLED" value="false"/>
+                <option name="SUSPEND_POLICY" value="SuspendAll"/>
+                <option name="SUSPEND" value="true"/>
+                <option name="COUNT_FILTER_ENABLED" value="false"/>
+                <option name="COUNT_FILTER" value="0"/>
+                <option name="CONDITION_ENABLED" value="true"/>
+                <option name="CLASS_FILTERS_ENABLED" value="false"/>
+                <option name="INSTANCE_FILTERS_ENABLED" value="false"/>
+                <option name="CONDITION" value=""/>
+                <option name="LOG_MESSAGE" value=""/>
+            </breakpoint>
+        </breakpoint_any>
+        <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+            <breakpoint url="file://$PROJECT_DIR$/src/com/example/SQLiteSample/StudentOperation.java" line="40"
+                        class="com.example.SQLiteSample.StudentOperation" package="com.example.SQLiteSample">
+                <option name="ENABLED" value="true"/>
+                <option name="LOG_ENABLED" value="false"/>
+                <option name="LOG_EXPRESSION_ENABLED" value="false"/>
+                <option name="SUSPEND_POLICY" value="SuspendAll"/>
+                <option name="SUSPEND" value="true"/>
+                <option name="COUNT_FILTER_ENABLED" value="false"/>
+                <option name="COUNT_FILTER" value="0"/>
+                <option name="CONDITION_ENABLED" value="true"/>
+                <option name="CLASS_FILTERS_ENABLED" value="false"/>
+                <option name="INSTANCE_FILTERS_ENABLED" value="false"/>
+                <option name="CONDITION" value=""/>
+                <option name="LOG_MESSAGE" value=""/>
+            </breakpoint>
+        </line_breakpoints>
+        <breakpoint_rules/>
+        <ui_properties/>
+    </component>
+    <component name="ExecutionTargetManager" SELECTED_TARGET="default_target"/>
+    <component name="FavoritesManager">
+        <favorites_list name="SQLiteSample"/>
+    </component>
+    <component name="FileEditorManager">
+        <leaf>
+            <file leaf-file-name="MyActivity.java" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/MyActivity.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state line="86" column="37" selection-start="3157" selection-end="3170"
+                               vertical-scroll-proportion="0.0">
+                            <folding/>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file leaf-file-name="DataBaseWrapper.java" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/DataBaseWrapper.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state line="33" column="24" selection-start="1079" selection-end="1087"
+                               vertical-scroll-proportion="0.0">
+                            <folding/>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file leaf-file-name="CustomerAdapter.java" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/CustomerAdapter.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state line="59" column="24" selection-start="1608" selection-end="1608"
+                               vertical-scroll-proportion="0.0">
+                            <folding/>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state line="52" column="55" selection-start="2499" selection-end="2499"
+                               vertical-scroll-proportion="-4.78">
+                            <folding/>
+                        </state>
+                    </provider>
+                    <provider editor-type-id="android-designer">
+                        <state/>
+                    </provider>
+                </entry>
+            </file>
+            <file leaf-file-name="Student.java" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/Student.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state line="32" column="15" selection-start="728" selection-end="728"
+                               vertical-scroll-proportion="0.0">
+                            <folding/>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file leaf-file-name="StudentOperation.java" pinned="false" current="true" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/StudentOperation.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state line="55" column="20" selection-start="1669" selection-end="1669"
+                               vertical-scroll-proportion="0.77130044">
+                            <folding/>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+            <file leaf-file-name="SQLiteDatabase.java" pinned="false" current="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/database/sqlite/SQLiteDatabase.java">
+                    <provider selected="true" editor-type-id="text-editor">
+                        <state line="1462" column="20" selection-start="61439" selection-end="61439"
+                               vertical-scroll-proportion="0.0">
+                            <folding/>
+                        </state>
+                    </provider>
+                </entry>
+            </file>
+        </leaf>
+    </component>
+    <component name="FindManager">
+        <FindUsagesManager>
+            <setting name="OPEN_NEW_TAB" value="false"/>
+        </FindUsagesManager>
+    </component>
+    <component name="IdeDocumentHistory">
+        <option name="changedFiles">
+            <list>
+                <option value="$PROJECT_DIR$/res/layout/listStudent.xml"/>
+                <option value="$PROJECT_DIR$/AndroidManifest.xml"/>
+                <option value="$PROJECT_DIR$/res/layout/list_students.xml"/>
+                <option value="$PROJECT_DIR$/res/layout/add_new_student.xml"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/ShowStudentsFragment.java"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/AddStudentFragment.java"/>
+                <option value="$PROJECT_DIR$/res/layout/item.xml"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/Student.java"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/ArrayAdapterCustom.java"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/CustomAdapter.java"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/StudentAdapter.java"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/CustomerAdapter.java"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/DataBaseWrapper.java"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/StudentOperation.java"/>
+                <option value="$PROJECT_DIR$/res/layout/main.xml"/>
+                <option value="$PROJECT_DIR$/src/com/example/SQLiteSample/MyActivity.java"/>
+            </list>
+        </option>
+    </component>
+    <component name="ProjectFrameBounds">
+        <option name="x" value="-8"/>
+        <option name="y" value="-8"/>
+        <option name="width" value="1382"/>
+        <option name="height" value="744"/>
+    </component>
+    <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+        <OptionsSetting value="true" id="Add"/>
+        <OptionsSetting value="true" id="Remove"/>
+        <OptionsSetting value="true" id="Checkout"/>
+        <OptionsSetting value="true" id="Update"/>
+        <OptionsSetting value="true" id="Status"/>
+        <OptionsSetting value="true" id="Edit"/>
+        <OptionsSetting value="true" id="Undo Check Out"/>
+        <OptionsSetting value="true" id="Get Latest Version"/>
+        <ConfirmationsSetting value="0" id="Add"/>
+        <ConfirmationsSetting value="0" id="Remove"/>
+    </component>
+    <component name="ProjectReloadState">
+        <option name="STATE" value="0"/>
+    </component>
+    <component name="ProjectView">
+        <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+            <flattenPackages/>
+            <showMembers/>
+            <showModules/>
+            <showLibraryContents/>
+            <hideEmptyPackages/>
+            <abbreviatePackageNames/>
+            <autoscrollToSource/>
+            <autoscrollFromSource/>
+            <sortByType/>
+        </navigator>
+        <panes>
+            <pane id="Scope"/>
+            <pane id="ProjectPane">
+                <subPane>
+                    <PATH>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType"
+                                    value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode"/>
+                        </PATH_ELEMENT>
+                    </PATH>
+                    <PATH>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType"
+                                    value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode"/>
+                        </PATH_ELEMENT>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
+                        </PATH_ELEMENT>
+                    </PATH>
+                    <PATH>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType"
+                                    value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode"/>
+                        </PATH_ELEMENT>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
+                        </PATH_ELEMENT>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="src"/>
+                            <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
+                        </PATH_ELEMENT>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
+                        </PATH_ELEMENT>
+                    </PATH>
+                    <PATH>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType"
+                                    value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode"/>
+                        </PATH_ELEMENT>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
+                        </PATH_ELEMENT>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="res"/>
+                            <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
+                        </PATH_ELEMENT>
+                    </PATH>
+                    <PATH>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType"
+                                    value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode"/>
+                        </PATH_ELEMENT>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="SQLiteSample"/>
+                            <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
+                        </PATH_ELEMENT>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="res"/>
+                            <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
+                        </PATH_ELEMENT>
+                        <PATH_ELEMENT>
+                            <option name="myItemId" value="layout"/>
+                            <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
+                        </PATH_ELEMENT>
+                    </PATH>
+                </subPane>
+            </pane>
+            <pane id="PackagesPane"/>
+        </panes>
+    </component>
+    <component name="PropertiesComponent">
+        <property name="GoToFile.includeJavaFiles" value="false"/>
+        <property name="OverrideImplement.combined" value="false"/>
+        <property name="GoToClass.toSaveIncludeLibraries" value="false"/>
+        <property name="WebServerToolWindowFactoryState" value="false"/>
+        <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="MyAvd0"/>
+        <property name="recentsLimit" value="5"/>
+        <property name="MemberChooser.sorted" value="false"/>
+        <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demo/sqlite/trunk/Preference"/>
+        <property name="restartRequiresConfirmation" value="true"/>
+        <property name="MemberChooser.showClasses" value="true"/>
+        <property name="AndroidLayoutSelectedEditor" value="text-editor"/>
+        <property name="GoToClass.includeLibraries" value="false"/>
+        <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555"/>
+        <property name="MemberChooser.copyJavadoc" value="false"/>
+    </component>
+    <component name="RecentsManager">
+        <key name="CopyClassDialog.RECENTS_KEY">
+            <recent name="com.example.SQLiteSample"/>
+        </key>
+        <key name="CopyFile.RECENT_KEYS">
+            <recent name="D:\Study\android\workspace\SQLiteSample\src\com\example\SQLiteSample"/>
+        </key>
+    </component>
+    <component name="RunManager" selected="Android Application.SQLiteSample">
+        <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType"
+                       factoryName="Plugin">
+            <module name=""/>
+            <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m"/>
+            <option name="PROGRAM_PARAMETERS"/>
+            <method/>
+        </configuration>
+        <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+            <module name=""/>
+            <option name="TESTING_TYPE" value="0"/>
+            <option name="INSTRUMENTATION_RUNNER_CLASS" value=""/>
+            <option name="METHOD_NAME" value=""/>
+            <option name="CLASS_NAME" value=""/>
+            <option name="PACKAGE_NAME" value=""/>
+            <option name="TARGET_SELECTION_MODE" value="EMULATOR"/>
+            <option name="PREFERRED_AVD" value=""/>
+            <option name="COMMAND_LINE" value=""/>
+            <option name="WIPE_USER_DATA" value="false"/>
+            <option name="DISABLE_BOOT_ANIMATION" value="false"/>
+            <option name="NETWORK_SPEED" value="full"/>
+            <option name="NETWORK_LATENCY" value="none"/>
+            <option name="CLEAR_LOGCAT" value="false"/>
+            <method/>
+        </configuration>
+        <configuration default="true" type="Remote" factoryName="Remote">
+            <option name="USE_SOCKET_TRANSPORT" value="true"/>
+            <option name="SERVER_MODE" value="false"/>
+            <option name="SHMEM_ADDRESS" value="javadebug"/>
+            <option name="HOST" value="localhost"/>
+            <option name="PORT" value="5005"/>
+            <method/>
+        </configuration>
+        <configuration default="true" type="Applet" factoryName="Applet">
+            <module name=""/>
+            <option name="MAIN_CLASS_NAME"/>
+            <option name="HTML_FILE_NAME"/>
+            <option name="HTML_USED" value="false"/>
+            <option name="WIDTH" value="400"/>
+            <option name="HEIGHT" value="300"/>
+            <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy"/>
+            <option name="VM_PARAMETERS"/>
+            <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+            <option name="ALTERNATIVE_JRE_PATH"/>
+            <method/>
+        </configuration>
+        <configuration default="true" type="TestNG" factoryName="TestNG">
+            <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+            <module name=""/>
+            <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+            <option name="ALTERNATIVE_JRE_PATH"/>
+            <option name="SUITE_NAME"/>
+            <option name="PACKAGE_NAME"/>
+            <option name="MAIN_CLASS_NAME"/>
+            <option name="METHOD_NAME"/>
+            <option name="GROUP_NAME"/>
+            <option name="TEST_OBJECT" value="CLASS"/>
+            <option name="VM_PARAMETERS" value="-ea"/>
+            <option name="PARAMETERS"/>
+            <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
+            <option name="OUTPUT_DIRECTORY"/>
+            <option name="ANNOTATION_TYPE"/>
+            <option name="ENV_VARIABLES"/>
+            <option name="PASS_PARENT_ENVS" value="true"/>
+            <option name="TEST_SEARCH_SCOPE">
+                <value defaultName="moduleWithDependencies"/>
+            </option>
+            <option name="USE_DEFAULT_REPORTERS" value="false"/>
+            <option name="PROPERTIES_FILE"/>
+            <envs/>
+            <properties/>
+            <listeners/>
+            <method/>
+        </configuration>
+        <configuration default="true" type="Application" factoryName="Application">
+            <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+            <option name="MAIN_CLASS_NAME"/>
+            <option name="VM_PARAMETERS"/>
+            <option name="PROGRAM_PARAMETERS"/>
+            <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
+            <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+            <option name="ALTERNATIVE_JRE_PATH"/>
+            <option name="ENABLE_SWING_INSPECTOR" value="false"/>
+            <option name="ENV_VARIABLES"/>
+            <option name="PASS_PARENT_ENVS" value="true"/>
+            <module name=""/>
+            <envs/>
+            <method/>
+        </configuration>
+        <configuration default="true" type="JUnit" factoryName="JUnit">
+            <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea"/>
+            <module name=""/>
+            <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false"/>
+            <option name="ALTERNATIVE_JRE_PATH"/>
+            <option name="PACKAGE_NAME"/>
+            <option name="MAIN_CLASS_NAME"/>
+            <option name="METHOD_NAME"/>
+            <option name="TEST_OBJECT" value="class"/>
+            <option name="VM_PARAMETERS" value="-ea"/>
+            <option name="PARAMETERS"/>
+            <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$"/>
+            <option name="ENV_VARIABLES"/>
+            <option name="PASS_PARENT_ENVS" value="true"/>
+            <option name="TEST_SEARCH_SCOPE">
+                <value defaultName="moduleWithDependencies"/>
+            </option>
+            <envs/>
+            <patterns/>
+            <method/>
+        </configuration>
+        <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+            <module name=""/>
+            <option name="ACTIVITY_CLASS" value=""/>
+            <option name="MODE" value="default_activity"/>
+            <option name="DEPLOY" value="true"/>
+            <option name="TARGET_SELECTION_MODE" value="EMULATOR"/>
+            <option name="PREFERRED_AVD" value=""/>
+            <option name="COMMAND_LINE" value=""/>
+            <option name="WIPE_USER_DATA" value="false"/>
+            <option name="DISABLE_BOOT_ANIMATION" value="false"/>
+            <option name="NETWORK_SPEED" value="full"/>
+            <option name="NETWORK_LATENCY" value="none"/>
+            <option name="CLEAR_LOGCAT" value="false"/>
+            <method/>
+        </configuration>
+        <configuration default="false" name="SQLiteSample" type="AndroidRunConfigurationType"
+                       factoryName="Android Application">
+            <module name="SQLiteSample"/>
+            <option name="ACTIVITY_CLASS" value="com.example.SQLiteSample.MyActivity"/>
+            <option name="MODE" value="specific_activity"/>
+            <option name="DEPLOY" value="true"/>
+            <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG"/>
+            <option name="PREFERRED_AVD" value=""/>
+            <option name="COMMAND_LINE" value=""/>
+            <option name="WIPE_USER_DATA" value="false"/>
+            <option name="DISABLE_BOOT_ANIMATION" value="false"/>
+            <option name="NETWORK_SPEED" value="full"/>
+            <option name="NETWORK_LATENCY" value="none"/>
+            <option name="CLEAR_LOGCAT" value="false"/>
+            <RunnerSettings RunnerId="AndroidDebugRunner"/>
+            <ConfigurationWrapper RunnerId="AndroidDebugRunner"/>
+            <method/>
+        </configuration>
+        <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="Android Application.SQLiteSample"/>
+        </list>
+        <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+            <Host>localhost</Host>
+            <Port>5050</Port>
+        </configuration>
+    </component>
+    <component name="ShelveChangesManager" show_recycled="false"/>
+    <component name="TaskManager">
+        <task active="true" id="Default" summary="Default task">
+            <changelist id="03718a44-ddd7-4f08-9926-d589f4bd93cf" name="Default" comment=""/>
+            <created>1382407148969</created>
+            <updated>1382407148969</updated>
+        </task>
+        <servers/>
+    </component>
+    <component name="ToolWindowManager">
+        <frame x="-8" y="-8" width="1382" height="744" extended-state="6"/>
+        <editor active="true"/>
+        <layout>
+            <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.18712121" sideWeight="0.82905984" order="3"
+                         side_tool="false" content_ui="tabs"/>
+            <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.25530303" sideWeight="0.82905984" order="2"
+                         side_tool="false" content_ui="tabs"/>
+            <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.3297546" sideWeight="0.5" order="3" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.35726497" sideWeight="0.5" order="3" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true"
+                         content_ui="tabs"/>
+            <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true"
+                         content_ui="tabs"/>
+            <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="7" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33846155" sideWeight="0.5" order="7" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED"
+                         visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs"/>
+            <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true"
+                         content_ui="tabs"/>
+            <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING"
+                         type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false"
+                         internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7"
+                         side_tool="false" content_ui="tabs"/>
+            <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="true" weight="0.24848485" sideWeight="0.82905984" order="0"
+                         side_tool="false" content_ui="combo"/>
+            <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED"
+                         visible="false" weight="0.17094018" sideWeight="0.5" order="2" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false"
+                         content_ui="combo"/>
+            <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED"
+                         visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs"/>
+            <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false"
+                         content_ui="tabs"/>
+            <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED"
+                         visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs"/>
+            <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED"
+                         type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false"
+                         content_ui="tabs"/>
+        </layout>
+    </component>
+    <component name="VcsContentAnnotationSettings">
+        <option name="myLimit" value="2678400000"/>
+    </component>
+    <component name="VcsManagerConfiguration">
+        <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true"/>
+        <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true"/>
+        <option name="CHECK_NEW_TODO" value="true"/>
+        <option name="myTodoPanelSettings">
+            <value>
+                <are-packages-shown value="false"/>
+                <are-modules-shown value="false"/>
+                <flatten-packages value="false"/>
+                <is-autoscroll-to-source value="false"/>
+            </value>
+        </option>
+        <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true"/>
+        <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true"/>
+        <option name="PERFORM_EDIT_IN_BACKGROUND" value="true"/>
+        <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true"/>
+        <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true"/>
+        <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false"/>
+        <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false"/>
+        <option name="CHANGED_ON_SERVER_INTERVAL" value="60"/>
+        <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true"/>
+        <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true"/>
+        <option name="DEFAULT_PATCH_EXTENSION" value="patch"/>
+        <option name="SHORT_DIFF_HORISONTALLY" value="true"/>
+        <option name="SHORT_DIFF_EXTRA_LINES" value="2"/>
+        <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true"/>
+        <option name="INCLUDE_TEXT_INTO_PATCH" value="false"/>
+        <option name="INCLUDE_TEXT_INTO_SHELF" value="false"/>
+        <option name="SHOW_FILE_HISTORY_DETAILS" value="true"/>
+        <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true"/>
+        <option name="SHOW_DIRTY_RECURSIVELY" value="false"/>
+        <option name="LIMIT_HISTORY" value="true"/>
+        <option name="MAXIMUM_HISTORY_ROWS" value="1000"/>
+        <option name="FORCE_NON_EMPTY_COMMENT" value="false"/>
+        <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false"/>
+        <option name="LAST_COMMIT_MESSAGE"/>
+        <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false"/>
+        <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false"/>
+        <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false"/>
+        <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false"/>
+        <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false"/>
+        <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8"/>
+        <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5"/>
+        <option name="ACTIVE_VCS_NAME"/>
+        <option name="UPDATE_GROUP_BY_PACKAGES" value="false"/>
+        <option name="UPDATE_GROUP_BY_CHANGELIST" value="false"/>
+        <option name="SHOW_FILE_HISTORY_AS_TREE" value="false"/>
+        <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6"/>
+    </component>
+    <component name="XDebuggerManager">
+        <breakpoint-manager>
+            <breakpoints-dialog>
+                <breakpoints-dialog/>
+            </breakpoints-dialog>
+        </breakpoint-manager>
+    </component>
+    <component name="antWorkspaceConfiguration">
+        <option name="IS_AUTOSCROLL_TO_SOURCE" value="false"/>
+        <option name="FILTER_TARGETS" value="false"/>
+    </component>
+    <component name="editorHistoryManager">
+        <entry file="file://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/view/View.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                    <folding>
+                        <element signature="e#0#557579#0" expanded="true"/>
+                    </folding>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/widget/ArrayAdapter.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="46" column="13" selection-start="1860" selection-end="1860"
+                       vertical-scroll-proportion="0.0"/>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/res/layout/item.xml">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="24" column="14" selection-start="1076" selection-end="1076"
+                       vertical-scroll-proportion="-8.16">
+                    <folding/>
+                </state>
+            </provider>
+            <provider editor-type-id="android-designer">
+                <state/>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/widget/TextView.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="3083" column="22" selection-start="108359" selection-end="108359"
+                       vertical-scroll-proportion="0.0">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/widget/AbsListView.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="2272" column="0" selection-start="75686" selection-end="75686"
+                       vertical-scroll-proportion="0.0">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/app/Instrumentation.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="1079" column="32" selection-start="40845" selection-end="40845"
+                       vertical-scroll-proportion="0.34758365">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/app/Activity.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/database/Cursor.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="29" column="17" selection-start="1042" selection-end="1042"
+                       vertical-scroll-proportion="0.53125">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/sources/android-14/android/database/sqlite/SQLiteDatabase.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="1462" column="20" selection-start="61439" selection-end="61439"
+                       vertical-scroll-proportion="0.0">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/Student.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="15" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="52" column="55" selection-start="2499" selection-end="2499"
+                       vertical-scroll-proportion="-4.78">
+                    <folding/>
+                </state>
+            </provider>
+            <provider editor-type-id="android-designer">
+                <state/>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/MyActivity.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="86" column="37" selection-start="3157" selection-end="3170"
+                       vertical-scroll-proportion="0.0">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/DataBaseWrapper.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="33" column="24" selection-start="1079" selection-end="1087"
+                       vertical-scroll-proportion="0.0">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/CustomerAdapter.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="59" column="24" selection-start="1608" selection-end="1608"
+                       vertical-scroll-proportion="0.0">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+        <entry file="file://$PROJECT_DIR$/src/com/example/SQLiteSample/StudentOperation.java">
+            <provider selected="true" editor-type-id="text-editor">
+                <state line="55" column="20" selection-start="1669" selection-end="1669"
+                       vertical-scroll-proportion="0.77130044">
+                    <folding/>
+                </state>
+            </provider>
+        </entry>
+    </component>
+</project>
+

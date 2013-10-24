@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Storage Demo" />
+
+    <EditText
+            android:id="@+id/InputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="top|left"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:minLines="2"
+            android:text="Internal and External Storage" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+            android:id="@+id/btInternalStorageSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internal Storage(Save)" />
+
+    <Button
+            android:id="@+id/btInternalStorageGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Internal Storage(Display)" />
+
+    <Button
+            android:id="@+id/btExternalStorageSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="External Storage(Save)" />
+
+    <Button
+            android:id="@+id/btExternalStorageGet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="External Storage(Displays)" />
+
+    <TextView
+            android:id="@+id/tvResponse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

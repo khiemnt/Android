@@ -11,7 +11,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ProfileActivity"
-                android:label="@string/profile">
+                  android:label="@string/profile">
 
         </activity>
     </application>
