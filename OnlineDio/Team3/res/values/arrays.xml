@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ns_menu_items">
+        <item>ns_menu_snippet1</item>
+        <item>ns_menu_snippet2</item>
+        <item>ns_menu_snippet3</item>
+        <item>ns_menu_snippet4</item>
+        <item>ns_menu_snippet5</item>
+        <item>ns_menu_snippet6</item>
+        <item>ns_menu_snippet7</item>
+        <item>ns_menu_snippet8</item>
+    </string-array>
+
+    <array name="ns_menu_items_icon">
+        <item>sidebar_image_icon_home2x</item>
+        <item>sidebar_image_icon_favorite2x</item>
+        <item>sidebar_image_icon_following2x</item>
+        <item>sidebar_image_icon_audience2x</item>
+        <item>sidebar_image_icon_genres2x</item>
+        <item>sidebar_image_icon_setting2x</item>
+        <item>sidebar_image_icon_helpcenter2x</item>
+        <item>sidebar_image_icon_logout2x</item>
+    </array>
+
+    <string-array name="country_array">
+        <item>Greece</item>
+        <item>United Kingdom</item>
+        <item>Italy</item>
+        <item>France</item>
+        <item>Germany</item>
+        <item>Turkey</item>
+        <item>Poland</item>
+        <item>India</item>
+    </string-array>
+</resources>

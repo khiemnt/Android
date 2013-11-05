@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="profile_view">Profile</string>
+    <string name="pr_lblProfile">Profile</string>
+    <string name="pr_lblAccountInfo">Account Information</string>
+    <string name="pr_lblFullName">Full name</string>
+    <string name="pr_lblBirthday">Birthday</string>
+    <string name="pr_lblGender">Gender</string>
+    <string name="pr_lblCountry">Country</string>
+    <string name="pr_displayName">Display name</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="label">OnlineDio</string>
+    <string name="login_pass">123456</string>
+    <string name="login_edEmail">qsoft@gmail.com</string>
+    <string name="login_edPass">123456</string>
+    <string name="provider_name">Home Feed</string>
+</resources>
