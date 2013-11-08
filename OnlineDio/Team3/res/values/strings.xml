@@ -74,8 +74,8 @@
     <string name="name_song">My Station</string>
     <string name="name_singer">Mr.Bean Aloha</string>
     <string name="label">OnlineDio</string>
-    <string name="login_pass">123456</string>
-    <string name="login_edEmail">qsoft@gmail.com</string>
-    <string name="login_edPass">123456</string>
+    <string name="login_edEmail">testing@gmail.com</string>
+    <string name="login_edPass">123456789</string>
+
     <string name="provider_name">Home Feed</string>
 </resources>

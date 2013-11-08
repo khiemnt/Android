@@ -47,7 +47,7 @@ public class LoginActivity extends AccountAuthenticatorActivity
 
     private AccountManager mAccountManager;
     private String mAuthTokenType;
-
+    public static String USER_ID="user_id";
     private Context context = LoginActivity.this;
     private final String TAG = this.getClass().getSimpleName();
 
@@ -370,7 +370,7 @@ public class LoginActivity extends AccountAuthenticatorActivity
 
             mAccountManager.addAccountExplicitly(account, accountPassword, null);
             mAccountManager.setAuthToken(account, authtokenType, authtoken);
-            mAccountManager.setUserData(account,"user_id",user_id);
+            mAccountManager.setUserData(account,USER_ID,user_id);
         }
         else
         {

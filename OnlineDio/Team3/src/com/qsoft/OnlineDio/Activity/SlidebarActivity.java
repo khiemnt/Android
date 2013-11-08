@@ -48,6 +48,8 @@ public class SlidebarActivity extends FragmentActivity
     private String token;
     private Account mConnectAccount;
     private String userId ;
+
+    public static Context context;
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
@@ -56,7 +58,7 @@ public class SlidebarActivity extends FragmentActivity
         token = b.getString("token");
         userId=b.getString("user_id");
         mConnectAccount=b.getParcelable("connectAccount");
-
+        context = this;
         setUpUI(token);
         setUpDataListOption(this);
         setUpListenerController();
@@ -159,6 +161,7 @@ public class SlidebarActivity extends FragmentActivity
         Bundle b=new Bundle();
         b.putString("token",token);
         b.putString("user_id",userId);
+        b.putParcelable("connectAccount",mConnectAccount);
         i.putExtras(b);
         startActivity(i);
     }

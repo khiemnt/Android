@@ -3,7 +3,7 @@
           package="com.qsoft.OnlineDio"
           android:versionCode="1"
           android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="10"/>
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="8"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
         <activity android:name=".Activity.FirstLaunchActivity"
@@ -20,8 +20,8 @@
                   android:screenOrientation="portrait"/>
 
         <provider
-                android:name="com.qsoft.OnlineDio.DB.HomeFeedContentProvider"
-                android:authorities="com.qsoft.onlinedio.homefeed.provider"
+                android:name=".DB.GenericContentProvider"
+                android:authorities="com.qsoft.onlinedio.provider"
                 android:exported="false"/>
 
         <service android:name=".Authenticate.OnlineDioAuthenticatorService">

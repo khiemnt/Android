@@ -30,148 +30,23 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18345eff-5541-4fc9-8359-fd62c48df75c" name="Default" comment="authenticate">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/res/drawable-hdpi/ic_udinic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/res/drawable/launch_bt_login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/res/drawable/launch_bt_login_fb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/res/drawable/launch_bt_signup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Util/ConvertDate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Model/Feed.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Model/Feeds.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/HomeFeedContentProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/HomeFeedContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/HomeFeedDbHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/HomeFeedSyncAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/HomeFeedSyncService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Model/ParseComError.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/ParseServerAccessor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Model/Profile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/ProfileContentProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/ProfileContract.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/ProfileDbHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/ProfileSyncAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/ProfileSyncService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Model/User.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/res/xml/authenticator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/res/xml/sync_adapter.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Team3/toDoList" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\gen\com\qsoft\OnlineDio\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\gen\com\qsoft\OnlineDio\Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\gen\com\qsoft\OnlineDio\R.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\Team3.afp.apk" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\Team3.apk" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\Team3.unaligned.apk" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ArrayAdapterCustom.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\FirstLaunchActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\FirstLaunchActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\LoginActivity$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\LoginActivity$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\LoginActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\LoginActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\LoginActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\LoginActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\LoginActivity$OkOnClickListener.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\LoginActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\NsMenuAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\NsMenuAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity$4$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity$4.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity$5.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity$6.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity$7.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity$8.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProfileActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProgramFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProgramFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProgramFragment$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProgramFragment$4.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\ProgramFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\SlidebarActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\SlidebarActivity$2$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\SlidebarActivity$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\SlidebarActivity$3.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Activity\SlidebarActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\BuildConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Custom\ArrayAdapterListOption.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\AddCommentFragmentActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\AddCommentFragmentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\CommentFragmentActivity$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\CommentFragmentActivity.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\DetailFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\HomeFragment$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\HomeFragment$2.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\HomeFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\ListCommentArrayAdapter$1.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\ListCommentArrayAdapter$ViewHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\ListCommentArrayAdapter.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\FragmentActivity\ThumbnailFragment.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Model\CommentModel.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Model\HomeModel.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Model\NsMenuItemModel.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$array.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$color.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$dimen.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$id.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$layout.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$raw.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R$style.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\R.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Validate\Constant.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Validate\EmailFormatValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\out\production\Team3\com\qsoft\OnlineDio\Validate\NetworkUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\src\com\qsoft\OnlineDio\Model\HomeModel.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\src\com\qsoft\OnlineDio\Model\NsMenuItemModel.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/AccountGeneral.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/AccountGeneral.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Team3/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/FirstLaunchActivity.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/FirstLaunchActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/LoginActivity.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/LoginActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/ParseComServerAuthenticate.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/ParseComServerAuthenticate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/ProfileActivity.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/ProfileActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/ProgramFragment.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/ProgramFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/SlidebarActivity.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/SlidebarActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/res/layout/first_launch_layout.xml" afterPath="$PROJECT_DIR$/Team3/res/layout/first_launch_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/res/layout/login_layout.xml" afterPath="$PROJECT_DIR$/Team3/res/layout/login_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/res/layout/profile_layout.xml" afterPath="$PROJECT_DIR$/Team3/res/layout/profile_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/res/values/strings.xml" afterPath="$PROJECT_DIR$/Team3/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/res/values-sw600dp/strings.xml" afterPath="$PROJECT_DIR$/Team3/res/values-sw600dp/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/res/values-sw720dp-land/strings.xml" afterPath="$PROJECT_DIR$/Team3/res/values-sw720dp-land/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/res/values-v11/strings.xml" afterPath="$PROJECT_DIR$/Team3/res/values-v11/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Team3/res/values-v14/strings.xml" afterPath="$PROJECT_DIR$/Team3/res/values-v14/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/v4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/v4.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\res\drawable-ldpi\Sidebar_image_icon_audience.png" afterPath="$PROJECT_DIR$/Team3/res/drawable-ldpi/sidebar_image_icon_audience.png" />
-      <change type="MOVED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\res\drawable-ldpi\Sidebar_image_icon_favorite.png" afterPath="$PROJECT_DIR$/Team3/res/drawable-ldpi/sidebar_image_icon_favorite.png" />
-      <change type="MOVED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\res\drawable-ldpi\Sidebar_image_icon_following.png" afterPath="$PROJECT_DIR$/Team3/res/drawable-ldpi/sidebar_image_icon_following.png" />
-      <change type="MOVED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\res\drawable-ldpi\Sidebar_image_icon_genres.png" afterPath="$PROJECT_DIR$/Team3/res/drawable-ldpi/sidebar_image_icon_genres.png" />
-      <change type="MOVED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\res\drawable-ldpi\Sidebar_image_icon_helpcenter.png" afterPath="$PROJECT_DIR$/Team3/res/drawable-ldpi/sidebar_image_icon_helpcenter.png" />
-      <change type="MOVED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\res\drawable-ldpi\Sidebar_image_icon_logout.png" afterPath="$PROJECT_DIR$/Team3/res/drawable-ldpi/sidebar_image_icon_logout.png" />
-      <change type="MOVED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\src\com\qsoft\OnlineDio\Adapter\ArrayAdapterCustom.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Adapter/FeedsAdapterCustom.java" />
-      <change type="MOVED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\src\com\qsoft\OnlineDio\Authenticate\UdinicAuthenticator.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/OnlineDioAuthenticator.java" />
-      <change type="MOVED" beforePath="D:\Study\android\Team3_again\OnlineDio\Team3\src\com\qsoft\OnlineDio\Authenticate\UdinicAuthenticatorService.java" afterPath="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/OnlineDioAuthenticatorService.java" />
-    </list>
+    <list default="true" id="18345eff-5541-4fc9-8359-fd62c48df75c" name="Default" comment="authenticate" />
     <list id="4c476bec-10ba-4402-99f0-29365fc91f7c" name="New changelist" comment="" />
     <ignored path="OnlineDio.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383614723458" ignored="false" />
-    <file path="/fragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383634920945" ignored="false" />
+    <file path="/Dummy.txt" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383881349566" ignored="false" />
+    <file path="/fragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383881711149" ignored="false" />
     <file path="/ArrayAdapterCustom.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515280913" ignored="false" />
     <file path="/slidebar.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382388542578" ignored="false" />
-    <file path="/a.dummy" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383559620248" ignored="false" />
-    <file path="/SlidebarActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383638199461" ignored="false" />
+    <file path="/a.dummy" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383795876820" ignored="false" />
+    <file path="/SlidebarActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383881849764" ignored="false" />
     <file path="/ArrayAdapterSidebarListOption.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382388367786" ignored="false" />
     <file path="/menu_row_header_layout.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382388471162" ignored="false" />
     <file path="/ProgramFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382398619888" ignored="false" />
     <file path="/login_layout.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383531556203" ignored="false" />
-    <file path="/LoginActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383637690295" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383558495841" ignored="false" />
-    <file path="/ProfileActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383638266389" ignored="false" />
+    <file path="/LoginActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383639348031" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383881622381" ignored="false" />
+    <file path="/ProfileActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383810427395" ignored="false" />
     <file path="/profile_layout.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383633798938" ignored="false" />
     <file path="$PROJECT_DIR$/../../refer/Team4.2/trunk/project.properties" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382396348716" ignored="false" />
     <file path="$PROJECT_DIR$/../../refer/Team4.2/SQLiteSample/res/values/strings.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382407085508" ignored="false" />
@@ -181,58 +56,58 @@
     <file path="$PROJECT_DIR$/../../refer/Team4.2/SQLiteSample/res/layout/main.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382407086247" ignored="false" />
     <file path="$PROJECT_DIR$/../../refer/Team4.2/SQLiteSample/.idea/workspace.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382407093093" ignored="false" />
     <file path="$PROJECT_DIR$/../../refer/Team4.2/SQLiteSample/.idea/compiler.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382407093093" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/res/values/strings.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382407155630" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/AndroidManifest.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382415493957" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/res/layout/main.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382514106359" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/build.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382407155962" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/src/com/example/SQLiteSample/MyActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515195134" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/src/com/example/Fragment/MyActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413293456" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/build.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382408723648" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/res/layout/main.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382409059644" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/res/values/strings.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382408723648" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/AndroidManifest.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413185666" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/res/values/strings.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382407155630" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/AndroidManifest.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382415493957" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/res/layout/main.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382514106359" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/build.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382407155962" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/src/com/example/SQLiteSample/MyActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515195134" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/MyActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413293456" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/build.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382408723648" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/res/layout/main.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382409059644" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/res/values/strings.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382408723648" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/AndroidManifest.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413185666" ignored="false" />
     <file path="/main.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382414584103" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/res/layout/fragment.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382408975754" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/res/layout/fragment.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382408975754" ignored="false" />
     <file path="/MyActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382514986615" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/src/com/example/Fragment/CountingFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382412572990" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/CountingFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382412572990" ignored="false" />
     <file path="/CountingFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382411820230" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/gen/com/example/Fragment/BuildConfig.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413282660" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/gen/com/example/Fragment/Manifest.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382412631839" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/gen/com/example/Fragment/R.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413282660" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/res/layout/fragment2.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413305695" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/src/com/example/Fragment/Test.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382411997870" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/src/com/example/Fragment/test.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382412020706" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/src/com/example/Fragment/TestFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382412301231" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/gen/com/example/Fragment/BuildConfig.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413282660" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/gen/com/example/Fragment/Manifest.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382412631839" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/gen/com/example/Fragment/R.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413282660" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/res/layout/fragment2.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413305695" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/Test.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382411997870" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/test.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382412020706" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/TestFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382412301231" ignored="false" />
     <file path="/TestFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382412301231" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/Fragment/src/com/example/Fragment/HoodFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413280207" ignored="false" />
+    <file path="$PROJECT_DIR$/../Fragment/src/com/example/Fragment/HoodFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413280207" ignored="false" />
     <file path="/HoodFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382413280207" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/res/layout/add_new.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382414371736" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/res/layout/add_new.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382414371736" ignored="false" />
     <file path="/add_new.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382414354548" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/res/layout/listStudent.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382414435315" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/res/layout/listStudent.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382414435315" ignored="false" />
     <file path="/listStudent.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382414435315" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/src/com/example/SQLiteSample/AddStudentFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382511514003" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/src/com/example/SQLiteSample/AddStudentFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382511514003" ignored="false" />
     <file path="/AddStudentFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382511484418" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/gen/com/example/SQLiteSample/BuildConfig.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382415496092" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/gen/com/example/SQLiteSample/R.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382415496092" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/src/com/example/SQLiteSample/ShowStudentsFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382511451795" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/gen/com/example/SQLiteSample/BuildConfig.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382415496092" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/gen/com/example/SQLiteSample/R.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382415496092" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/src/com/example/SQLiteSample/ShowStudentsFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382511451795" ignored="false" />
     <file path="/ShowStudentsFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382511384888" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/gen/com/example/SQLiteSample/Manifest.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382415496092" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/res/layout/add_new_student.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382504906564" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/src/com/example/SQLiteSample/Student.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382514050919" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/gen/com/example/SQLiteSample/Manifest.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382415496092" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/res/layout/add_new_student.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382504906564" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/src/com/example/SQLiteSample/Student.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382514050919" ignored="false" />
     <file path="/Student.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382424953652" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/src/com/example/SQLiteSample/DataBaseWrapper.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382424031901" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/src/com/example/SQLiteSample/DataBaseWrapper.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382424031901" ignored="false" />
     <file path="/DataBaseWrapper.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382417963206" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/src/com/example/SQLiteSample/StudentOperation.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382510930114" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/src/com/example/SQLiteSample/StudentOperation.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382510930114" ignored="false" />
     <file path="/StudentOperation.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382510928460" ignored="false" />
     <file path="/add_new_student.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382504906564" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SampleSqlite2/src/com/example/SampleSqlite2/MyActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382510801993" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SampleSqlite2/src/com/example/SampleSqlite2/StudentOperations.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382510864976" ignored="false" />
+    <file path="$PROJECT_DIR$/../SampleSqlite2/src/com/example/SampleSqlite2/MyActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382510801993" ignored="false" />
+    <file path="$PROJECT_DIR$/../SampleSqlite2/src/com/example/SampleSqlite2/StudentOperations.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382510864976" ignored="false" />
     <file path="/StudentOperations.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382510855135" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/src/com/example/SQLiteSample/ArrayAdapterCustom.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515375602" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/res/layout/item.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382513524125" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/src/com/example/SQLiteSample/ArrayAdapterCustom.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515375602" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/res/layout/item.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382513524125" ignored="false" />
     <file path="/item.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382513181497" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/src/com/example/SQLiteSample/ViewHolder.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515546338" ignored="false" />
-    <file path="$PROJECT_DIR$/../../workspace/SQLiteSample/src/com/example/SQLiteSample/CustomAdapter.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515687726" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/src/com/example/SQLiteSample/ViewHolder.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515546338" ignored="false" />
+    <file path="$PROJECT_DIR$/../SQLiteSample/src/com/example/SQLiteSample/CustomAdapter.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515687726" ignored="false" />
     <file path="/CustomAdapter.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382515687008" ignored="false" />
     <file path="$PROJECT_DIR$/../../demo/Authen/trunk/.idea/misc.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382942519430" ignored="false" />
     <file path="$PROJECT_DIR$/../../demo/Authen/trunk/.idea/workspace.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1382955955266" ignored="false" />
@@ -243,7 +118,7 @@
     <file path="/ParseComServerAuthenticate.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383636611514" ignored="false" />
     <file path="/User.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383033262214" ignored="false" />
     <file path="/md5.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383032324519" ignored="false" />
-    <file path="/FirstLaunchActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383638139500" ignored="false" />
+    <file path="/FirstLaunchActivity.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383639324235" ignored="false" />
     <file path="$PROJECT_DIR$/../../demo/gson/Gon_Sample/.idea/workspace.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383304730239" ignored="false" />
     <file path="/first_launch_layout.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383108282680" ignored="false" />
     <file path="$PROJECT_DIR$/../../demo/SynAdapter/trunk/project.properties" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383206093927" ignored="false" />
@@ -253,11 +128,11 @@
     <file path="$PROJECT_DIR$/../../demo/SynAdapter/trunk/SyncAdapterExample/res/xml/sync_adapter.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383541500780" ignored="false" />
     <file path="/sync_adapter.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383558675265" ignored="false" />
     <file path="/HomeModel.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383273910590" ignored="false" />
-    <file path="/ParseServerAccessor.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383627612337" ignored="false" />
+    <file path="/ParseServerAccessor.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383722994824" ignored="false" />
     <file path="/ParseComError.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383273676007" ignored="false" />
     <file path="/Feeds.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383291472644" ignored="false" />
-    <file path="/HomeFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383616007708" ignored="false" />
-    <file path="/FeedsAdapterCustom.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383295785081" ignored="false" />
+    <file path="/HomeFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383881305938" ignored="false" />
+    <file path="/FeedsAdapterCustom.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383881922137" ignored="false" />
     <file path="/Connection.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383291294682" ignored="false" />
     <file path="$PROJECT_DIR$/../../../Qsoft/project/team3_again_eight/WholeGoods_Grails/test/selenium/wholegoods/EquipmentServiceTests.groovy" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383288132566" ignored="false" />
     <file path="$PROJECT_DIR$/../../refer/a.Hoang/SoundService/project.properties" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383533803735" ignored="false" />
@@ -268,25 +143,32 @@
     <file path="$PROJECT_DIR$/../../refer/a.Hoang/SoundService/gen/com/phuong/soundservice/BuildConfig.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383538668859" ignored="false" />
     <file path="$PROJECT_DIR$/../../refer/a.Hoang/SoundService/gen/com/phuong/soundservice/Manifest.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383538668859" ignored="false" />
     <file path="$PROJECT_DIR$/../../refer/a.Hoang/SoundService/src/com/phuong/soundservice/FeedFragment.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383539011402" ignored="false" />
-    <file path="/HomeFeedContract.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383540877506" ignored="false" />
+    <file path="/HomeFeedContract.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383703021110" ignored="false" />
     <file path="$PROJECT_DIR$/../../demo/SynAdapter/trunk/SyncAdapterExample/AndroidManifest.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383541500780" ignored="false" />
-    <file path="/HomeFeedDbHelper.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383549544739" ignored="false" />
+    <file path="/HomeFeedDbHelper.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383645005346" ignored="false" />
     <file path="$PROJECT_DIR$/../../demo/SynAdapter/trunk/SyncAdapterExample/src/com/udinic/sync_adapter_example_app/db/TvShowsDbHelper.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383548326667" ignored="false" />
-    <file path="/HomeFeedContentProvider.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383550562145" ignored="false" />
+    <file path="/HomeFeedContentProvider.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383703081352" ignored="false" />
     <file path="/HomeFeedSyncService.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383550931620" ignored="false" />
-    <file path="/HomeFeedSyncAdapter.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383554969468" ignored="false" />
+    <file path="/HomeFeedSyncAdapter.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383878784287" ignored="false" />
     <file path="/TvShow.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383551675450" ignored="false" />
     <file path="$PROJECT_DIR$/../../demo/SynAdapter/trunk/SyncAdapterExample/src/com/udinic/sync_adapter_example_app/db/dao/TvShow.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383551676984" ignored="false" />
     <file path="$PROJECT_DIR$/../../demo/SynAdapter/trunk/SyncAdapterExample/src/com/udinic/sync_adapter_example_app/syncadapter/TvShowsSyncAdapter.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383554172410" ignored="false" />
-    <file path="/Feed.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383621393935" ignored="false" />
+    <file path="/Feed.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383708867054" ignored="false" />
     <file path="/TvShowsSyncAdapter.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383554172410" ignored="false" />
     <file path="/UdinicAuthenticatorService.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383556150511" ignored="false" />
-    <file path="/ProfileContract.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383622882653" ignored="false" />
+    <file path="/ProfileContract.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383702919817" ignored="false" />
     <file path="/ProfileDbHelper.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383623721453" ignored="false" />
-    <file path="/ProfileContentProvider.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383623991351" ignored="false" />
-    <file path="/ProfileSyncAdapter.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383624170141" ignored="false" />
-    <file path="/Profile.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383624499197" ignored="false" />
+    <file path="/ProfileContentProvider.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383703031154" ignored="false" />
+    <file path="/ProfileSyncAdapter.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383703919258" ignored="false" />
+    <file path="/Profile.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383724116205" ignored="false" />
     <file path="/ServerAuthenticate.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383636708878" ignored="false" />
+    <file path="/GenericContentProvider.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383799479225" ignored="false" />
+    <file path="/arrays.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383711048107" ignored="false" />
+    <file path="/STATUS.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383721138083" ignored="false" />
+    <file path="/ConvertDate.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383721327393" ignored="false" />
+    <file path="/home_items_layout.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383797550832" ignored="false" />
+    <file path="/strings.xml" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383810525726" ignored="false" />
+    <file path="/dada.java" changelist="18345eff-5541-4fc9-8359-fd62c48df75c" time="1383881565628" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,6 +184,11 @@
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+    <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
@@ -338,6 +225,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/OnlineDioAuthenticatorService.java" line="16" class="com.qsoft.OnlineDio.Authenticate.OnlineDioAuthenticatorService" package="com.qsoft.OnlineDio.Authenticate">
         <option name="ENABLED" value="true" />
@@ -353,7 +241,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/OnlineDioAuthenticator.java" line="38" class="com.qsoft.OnlineDio.Authenticate.OnlineDioAuthenticator" package="com.qsoft.OnlineDio.Authenticate">
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/ProfileActivity.java" line="134" class="com.qsoft.OnlineDio.Activity.ProfileActivity" package="com.qsoft.OnlineDio.Activity">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -367,7 +255,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/HomeFeedDbHelper.java" line="16" class="com.qsoft.OnlineDio.DB.HomeFeedDbHelper" package="com.qsoft.OnlineDio.DB">
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/DbHelper.java" line="119" class="com.qsoft.OnlineDio.DB.DbHelper" package="com.qsoft.OnlineDio.DB">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -381,7 +269,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/SlidebarActivity.java" line="157" class="com.qsoft.OnlineDio.Activity.SlidebarActivity" package="com.qsoft.OnlineDio.Activity">
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" line="141" class="com.qsoft.OnlineDio.Fragment.HomeFragment" package="com.qsoft.OnlineDio.Fragment">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -395,7 +283,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/ProfileActivity.java" line="408" class="com.qsoft.OnlineDio.Activity.ProfileActivity.Connection" package="com.qsoft.OnlineDio.Activity">
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" line="238" class="com.qsoft.OnlineDio.Fragment.HomeFragment.Connection" package="com.qsoft.OnlineDio.Fragment">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -409,7 +297,105 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/ProfileActivity.java" line="63" class="com.qsoft.OnlineDio.Activity.ProfileActivity" package="com.qsoft.OnlineDio.Activity">
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" line="225" class="com.qsoft.OnlineDio.Fragment.HomeFragment.Connection" package="com.qsoft.OnlineDio.Fragment">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" line="231" class="com.qsoft.OnlineDio.Fragment.HomeFragment.Connection" package="com.qsoft.OnlineDio.Fragment">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" line="201" class="com.qsoft.OnlineDio.Fragment.HomeFragment.Connection" package="com.qsoft.OnlineDio.Fragment">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" line="215" class="com.qsoft.OnlineDio.Fragment.HomeFragment.Connection" package="com.qsoft.OnlineDio.Fragment">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" line="94" class="com.qsoft.OnlineDio.Fragment.HomeFragment$2" package="com.qsoft.OnlineDio.Fragment">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/ImageCache/Image.java" line="35" class="com.qsoft.OnlineDio.ImageCache.Image" package="com.qsoft.OnlineDio.ImageCache">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/ImageCache/Image.java" line="45" class="com.qsoft.OnlineDio.ImageCache.Image" package="com.qsoft.OnlineDio.ImageCache">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Adapter/FeedsAdapterCustom.java" line="53" class="com.qsoft.OnlineDio.Adapter.FeedsAdapterCustom" package="com.qsoft.OnlineDio.Adapter">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -424,42 +410,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </line_breakpoints>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
-  </component>
-  <component name="DockManager">
-    <window id="3">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file leaf-file-name="HomeFeedContentProvider.java" pinned="false" current="false" current-in-tab="false">
-              <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/HomeFeedContentProvider.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="97" column="13" selection-start="3644" selection-end="3644" vertical-scroll-proportion="0.0">
-                    <folding />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-            <file leaf-file-name="HomeFeedSyncAdapter.java" pinned="false" current="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/HomeFeedSyncAdapter.java">
-                <provider selected="true" editor-type-id="text-editor">
-                  <state line="58" column="96" selection-start="2102" selection-end="2102" vertical-scroll-proportion="1.105198">
-                    <folding>
-                      <element signature="imports" expanded="true" />
-                      <element signature="e#1529#1535#0" expanded="true" />
-                      <element signature="e#1946#1952#0" expanded="true" />
-                      <element signature="e#2224#2230#0" expanded="true" />
-                    </folding>
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -467,56 +419,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProfileActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/ProfileActivity.java">
+      <file leaf-file-name="HomeFragment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="408" column="0" selection-start="14830" selection-end="14830" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/LoginActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="284" column="0" selection-start="10149" selection-end="10149" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnlineDioAuthenticator.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/OnlineDioAuthenticator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParseServerAccessor.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/ParseServerAccessor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="45" selection-start="2924" selection-end="2924" vertical-scroll-proportion="0.42890996">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Account.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-18/android.jar!/android/accounts/Account.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstLaunchActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/FirstLaunchActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="39" column="41" selection-start="1306" selection-end="1320" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4382#4388#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -524,37 +434,73 @@
       <file leaf-file-name="SlidebarActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/SlidebarActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="0" selection-start="5731" selection-end="5731" vertical-scroll-proportion="0.0">
+            <state line="57" column="26" selection-start="2108" selection-end="2108" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java">
+      <file leaf-file-name="FeedsAdapterCustom.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Adapter/FeedsAdapterCustom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2295#2301#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParseComServerAuthenticate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/ParseComServerAuthenticate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="69" selection-start="2280" selection-end="2334" vertical-scroll-proportion="0.0">
+            <state line="60" column="42" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.35211268">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerAuthenticate.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/ServerAuthenticate.java">
+      <file leaf-file-name="home_items_layout.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team3/res/layout/home_items_layout.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="23" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+            <state line="4" column="15" selection-start="405" selection-end="440" vertical-scroll-proportion="-2.72">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CacheManager.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/ImageCache/CacheManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeFeedSyncAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/HomeFeedSyncAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="0" selection-start="3453" selection-end="3453" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileCache.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/ImageCache/FileCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="31" selection-start="714" selection-end="729" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Image.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/ImageCache/Image.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="47" selection-start="913" selection-end="931" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Team3/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="24" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -568,7 +514,7 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -578,30 +524,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Model/Feed.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/HomeFeedSyncAdapter.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/ProfileDbHelper.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/ProfileContract.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/ProfileContentProvider.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/ProfileSyncService.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/ProfileSyncAdapter.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Model/Profile.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/ParseServerAccessor.java" />
-        <option value="$PROJECT_DIR$/Team3/res/layout/profile_layout.xml" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/ParseComServerAuthenticate.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/ServerAuthenticate.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/FirstLaunchActivity.java" />
-        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/SlidebarActivity.java" />
+        <option value="$PROJECT_DIR$/Team3/res/values-sw720dp-land/strings.xml" />
+        <option value="$PROJECT_DIR$/Team3/res/values-v11/strings.xml" />
+        <option value="$PROJECT_DIR$/Team3/res/values-v14/strings.xml" />
+        <option value="$PROJECT_DIR$/Team3/res/values-sw600dp/strings.xml" />
+        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/GenericContentProvider.java" />
         <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/ProfileActivity.java" />
+        <option value="$PROJECT_DIR$/Team3/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/DbHelper.java" />
+        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/HomeFeedSyncAdapter.java" />
+        <option value="$PROJECT_DIR$/Team3/res/layout/home_items_layout.xml" />
+        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/Team3/res/layout/test.xml" />
+        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/dada.java" />
+        <option value="$PROJECT_DIR$/Team3/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/SlidebarActivity.java" />
+        <option value="$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Adapter/FeedsAdapterCustom.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1366" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -631,7 +575,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -771,6 +714,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineDio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Team3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qsoft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineDio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageCache" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -997,8 +970,22 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="xml" />
+              <option name="myItemId" value="OnlineDio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Team3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-v14" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1013,6 +1000,64 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-v11" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineDio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Team3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-sw720dp-land" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineDio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Team3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values-sw600dp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineDio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Team3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1034,13 +1079,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineDio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Team3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="drawable" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OnlineDio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Team3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1048,7 +1126,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../refer/a.Hoang/SoundService" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Team3/libs/imageloader-core-1.5.8.jar!/" />
     <property name="AndroidLayoutSelectedEditor" value="text-editor" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.114.101:5555" />
@@ -1059,50 +1137,26 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qsoft.OnlineDio.ImageCache" />
       <recent name="com.qsoft.OnlineDio.Model" />
       <recent name="com.qsoft.OnlineDio.Authenticate" />
       <recent name="com.qsoft.OnlineDio.Activity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\android\workspace\OnlineDio\Team3\res\drawable" />
+      <recent name="D:\Study\android\workspace\OnlineDio\Team3\src\com\qsoft\OnlineDio\ImageCache" />
+      <recent name="D:\Study\android\workspace\OnlineDio\Team3\libs" />
       <recent name="D:\Study\android\Team3_again\OnlineDio\Team3\res\xml" />
       <recent name="D:\Study\android\Team3_again\OnlineDio\Team3\res\drawable" />
-      <recent name="D:\Study\android\Team3_again\OnlineDio\Team3\res\drawable-hdpi" />
-      <recent name="D:\Study\android\Team3_again\OnlineDio\Team3\src\com\qsoft\OnlineDio\Activity" />
-      <recent name="D:\Study\android\Team3_again\OnlineDio\Team3\src\com\qsoft\OnlineDio" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Team3">
-    <configuration default="false" name="All in Team3" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Team3" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Cover" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Cover" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="md5" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1159,6 +1213,59 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="ConvertDate" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.qsoft.OnlineDio.Util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.qsoft.OnlineDio.Util.ConvertDate" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Team3" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in Team3" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Team3" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Cover" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -1190,19 +1297,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1229,6 +1323,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1299,17 +1406,19 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Android Application.Team3" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in Team3" />
-      <item index="2" class="java.lang.String" itemvalue="Application.md5" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Feed" />
+      <item index="1" class="java.lang.String" itemvalue="Application.md5" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Feed" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ConvertDate" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.All in Team3" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Feed" />
-        <item index="1" class="java.lang.String" itemvalue="Application.md5" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in Team3" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.ConvertDate" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Feed" />
+        <item index="2" class="java.lang.String" itemvalue="Application.md5" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in Team3" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1367,35 +1476,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="728" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11742424" sideWeight="0.8991453" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3181818" sideWeight="0.8991453" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.11119632" sideWeight="0.87873465" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31211656" sideWeight="0.9420035" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07692308" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.02130898" sideWeight="0.9863248" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4923077" sideWeight="0.46439394" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1982906" sideWeight="0.5219697" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.02130898" sideWeight="0.9863248" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.46439394" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.07878788" sideWeight="0.42735043" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.88400704" sideWeight="0.5219697" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31623933" sideWeight="0.47272727" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25299147" sideWeight="0.38560605" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47100174" sideWeight="0.38560605" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5726496" sideWeight="0.4939394" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26287878" sideWeight="0.24444444" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31666666" sideWeight="0.8017094" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1008547" sideWeight="0.6992424" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.817094" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27070552" sideWeight="0.63093144" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36906853" sideWeight="0.6992424" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952815" sideWeight="0.817094" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1456,135 +1565,117 @@
     <MESSAGE value="authenticate" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-18/android.jar!/android/os/AsyncTask.class">
+    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/DbHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="96" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+        <state line="19" column="51" selection-start="537" selection-end="557" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/res/layout/login_reset_password_layout.xml">
+    <entry file="jar://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-18/android.jar!/android/content/ContentProviderClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="15" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-18/android.jar!/android/content/ContentProvider.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-18/android.jar!/android/widget/ImageView.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/DB/GenericContentProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="0" selection-start="5740" selection-end="5740" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team3/res/layout/home_items_layout.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="15" selection-start="405" selection-end="440" vertical-scroll-proportion="-2.72">
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Model/Profile.java">
+    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/ImageCache/FileCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+        <state line="28" column="31" selection-start="714" selection-end="729" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/res/layout/profile_layout.xml">
+    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/ImageCache/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="307" column="84" selection-start="17047" selection-end="17047" vertical-scroll-proportion="-6.12">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/HomeFeedSyncAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="96" selection-start="2102" selection-end="2102" vertical-scroll-proportion="1.105198">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1529#1535#0" expanded="true" />
-            <element signature="e#1946#1952#0" expanded="true" />
-            <element signature="e#2224#2230#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/ServerAuthenticate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0">
+        <state line="30" column="47" selection-start="913" selection-end="931" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/ParseComServerAuthenticate.java">
+    <entry file="file://$PROJECT_DIR$/Team3/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="69" selection-start="2280" selection-end="2334" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-18/android.jar!/android/accounts/AccountManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="41" selection-start="693" selection-end="693" vertical-scroll-proportion="0.26480836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../sdk/adt-bundle-windows-x86_64-20130917/sdk/platforms/android-18/android.jar!/android/accounts/Account.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2295#2301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Authenticate/OnlineDioAuthenticator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="0" selection-start="10149" selection-end="10149" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/FirstLaunchActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="2167" selection-end="2167" vertical-scroll-proportion="0.0">
+        <state line="10" column="24" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/SlidebarActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="0" selection-start="5731" selection-end="5731" vertical-scroll-proportion="0.0">
+        <state line="57" column="26" selection-start="2108" selection-end="2108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Activity/ProfileActivity.java">
+    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Fragment/HomeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="408" column="0" selection-start="14830" selection-end="14830" vertical-scroll-proportion="0.0">
+        <state line="39" column="41" selection-start="1306" selection-end="1320" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4382#4388#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/ImageCache/CacheManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/ParseServerAccessor.java">
+    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/SyncAdapter/HomeFeedSyncAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="45" selection-start="2924" selection-end="2924" vertical-scroll-proportion="0.42890996">
+        <state line="98" column="0" selection-start="3453" selection-end="3453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Team3/src/com/qsoft/OnlineDio/Adapter/FeedsAdapterCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="42" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.35211268">
           <folding />
         </state>
       </provider>

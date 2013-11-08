@@ -25,47 +25,47 @@ public class ParseComServerAuthenticate implements ServerAuthenticate
 {
     private final String TAG = "ParseComServer";
 
-    @Override
-    public String userSignUp(String name, String email, String pass, String authType) throws Exception
-    {
-
-        String url = "http://192.168.1.222/testing/ica467/trunk/public/auth-rest";
-
-        DefaultHttpClient httpClient = new DefaultHttpClient();
-        HttpPost httpPost = new HttpPost(url);
-        httpPost.addHeader("X-Parse-Application-Id", "XUafJTkPikD5XN5HxciweVuSe12gDgk2tzMltOhr");
-        httpPost.addHeader("X-Parse-REST-API-Key", "8L9yTQ3M86O4iiucwWb4JS7HkxoSKo7ssJqGChWx");
-        httpPost.addHeader("Content-Type", "application/json");
-
-        String user = "{\"username\":\"" + email + "\",\"password\":\"" + pass + "\",\"phone\":\"415-392-0202\"}";
-        HttpEntity entity = new StringEntity(user);
-        httpPost.setEntity(entity);
-
-        String authtoken = null;
-        try
-        {
-            HttpResponse response = httpClient.execute(httpPost);
-            String responseString = EntityUtils.toString(response.getEntity());
-
-            if (response.getStatusLine().getStatusCode() != 201)
-            {
-                ParseComError error = new Gson().fromJson(responseString, ParseComError.class);
-                throw new Exception("Error creating user[" + error.code + "] - " + error.error);
-            }
-
-
-            User createdUser = new Gson().fromJson(responseString, User.class);
-
-            authtoken = createdUser.getAccess_token();
-
-        }
-        catch (IOException e)
-        {
-            e.printStackTrace();
-        }
-
-        return authtoken;
-    }
+//    @Override
+//    public String userSignUp(String name, String email, String pass, String authType) throws Exception
+//    {
+//
+//        String url = "http://192.168.1.222/testing/ica467/trunk/public/auth-rest";
+//
+//        DefaultHttpClient httpClient = new DefaultHttpClient();
+//        HttpPost httpPost = new HttpPost(url);
+//        httpPost.addHeader("X-Parse-Application-Id", "XUafJTkPikD5XN5HxciweVuSe12gDgk2tzMltOhr");
+//        httpPost.addHeader("X-Parse-REST-API-Key", "8L9yTQ3M86O4iiucwWb4JS7HkxoSKo7ssJqGChWx");
+//        httpPost.addHeader("Content-Type", "application/json");
+//
+//        String user = "{\"username\":\"" + email + "\",\"password\":\"" + pass + "\",\"phone\":\"415-392-0202\"}";
+//        HttpEntity entity = new StringEntity(user);
+//        httpPost.setEntity(entity);
+//
+//        String authtoken = null;
+//        try
+//        {
+//            HttpResponse response = httpClient.execute(httpPost);
+//            String responseString = EntityUtils.toString(response.getEntity());
+//
+//            if (response.getStatusLine().getStatusCode() != 201)
+//            {
+//                ParseComError error = new Gson().fromJson(responseString, ParseComError.class);
+//                throw new Exception("Error creating user[" + error.code + "] - " + error.error);
+//            }
+//
+//
+//            User createdUser = new Gson().fromJson(responseString, User.class);
+//
+//            authtoken = createdUser.getAccess_token();
+//
+//        }
+//        catch (IOException e)
+//        {
+//            e.printStackTrace();
+//        }
+//
+//        return authtoken;
+//    }
 
     @Override
     public User userSignIn(String user, String pass, String authType) throws Exception

@@ -11,8 +11,5 @@
     <string name="drawer_open">Open navigation drawer</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="label">OnlineDio</string>
-    <string name="login_pass">123456</string>
-    <string name="login_edEmail">qsoft@gmail.com</string>
-    <string name="login_edPass">123456</string>
     <string name="provider_name">Home Feed</string>
 </resources>

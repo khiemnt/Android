@@ -5,7 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
+import com.qsoft.OnlineDio.ImageCache.Image;
 import com.qsoft.OnlineDio.Model.Feed;
 import com.qsoft.OnlineDio.R;
 
@@ -18,6 +20,7 @@ import java.util.ArrayList;
  */
 public class FeedsAdapterCustom extends ArrayAdapter<Feed>
 {
+    private ImageView ivAvatar;
     private TextView tvTitle;
     private TextView tvUserName;
     private TextView tvLike;
@@ -47,10 +50,12 @@ public class FeedsAdapterCustom extends ArrayAdapter<Feed>
         setUpViewFindByID(v);
         if (feed != null)
         {
+            Image i=new Image(context);
+            i.DisplayImage(feed.getAvatar(),ivAvatar);
             tvTitle.setText(feed.getTitle());
             tvUserName.setText(feed.getUsername());
-            tvLike.setText(feed.getLikes()+"");
-            tvComment.setText(feed.getComments()+"");
+            tvLike.setText("Like:"+feed.getLikes());
+            tvComment.setText("Comment:"+feed.getComments()+"");
             tvTime.setText(feed.getCreated_at());
         }
         return v;
@@ -63,5 +68,6 @@ public class FeedsAdapterCustom extends ArrayAdapter<Feed>
         tvLike = (TextView) v.findViewById(R.id.tvLike);
         tvComment = (TextView) v.findViewById(R.id.tvComment);
         tvTime = (TextView) v.findViewById(R.id.tvTime);
+        ivAvatar=(ImageView)v.findViewById(R.id.HomeFeed_ivAvatar);
     }
 }

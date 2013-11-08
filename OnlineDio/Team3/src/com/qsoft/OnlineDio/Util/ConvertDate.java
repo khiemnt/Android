@@ -1,5 +1,8 @@
 package com.qsoft.OnlineDio.Util;
 
+import android.widget.ImageView;
+import com.qsoft.OnlineDio.R;
+
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -50,5 +53,10 @@ public class ConvertDate
 
         long diffDays = diff / (24 * 60 * 60 * 1000);
         return diffDays;
+    }
+
+    public static void main(String[] args)
+    {
+
     }
 }

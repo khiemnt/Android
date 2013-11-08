@@ -1,9 +1,11 @@
 package com.qsoft.OnlineDio.Activity;
 
+import android.accounts.Account;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
+import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -17,15 +19,16 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.*;
-import com.qsoft.OnlineDio.Fragment.HomeFragment;
+import com.qsoft.OnlineDio.DB.GenericContract;
+import com.qsoft.OnlineDio.ImageCache.Image;
 import com.qsoft.OnlineDio.Model.Profile;
 import com.qsoft.OnlineDio.R;
 import com.qsoft.OnlineDio.SyncAdapter.ParseServerAccessor;
-
-import java.util.List;
+import com.qsoft.OnlineDio.Util.STATUS;
 
 /**
  * User: Dell 3360
@@ -34,24 +37,26 @@ import java.util.List;
  */
 public class ProfileActivity extends Activity
 {
-    ImageView pr_imgAvatar, img;
-    Button btTakePicture, btChoosePicture, btCancel, btGenderSelectLeft, btGenderSelectRight, pr_btCancel;
+    ImageView pr_imgAvatar;
+    Button btTakePicture, btChoosePicture, btCancel, btGenderSelectLeft, btGenderSelectRight, pr_btCancel, pr_btSave;
 
-    EditText pr_edFullName, pr_edPhone, pr_edBirthday, pr_edCountry,pr_edDisplayName,pr_edDescription;
+    EditText pr_edFullName, pr_edPhone, pr_edBirthday, pr_edCountry, pr_edDisplayName, pr_edDescription;
     ImageButton pr_ibDeleteFullName, pr_ibDeletePhone;
     RelativeLayout pr_rlBackGround;
     AlertDialog alertDialog, alertCountryDialog;
-    private Profile profile;
     private String userId;
-    private ListView listCountry;
-    private List<HomeFragment> rowItems;
+    private Account mConnectAccount;
+    private static final String TAG = "ProfileSyncAdapter";
+    public String[] countries;
+    String[] country_codes;
+    private Boolean isCheckedRdbLeft = false;
 
     static final int DATE_DIALOG_ID = 0;
     private static final int PICK_IMAGE = 1;
     private static final int CAMERA_REQUEST = 1888;
     public int year, month, day;
     final Context context = this;
-
+    String token;
     String code;
 
     public void onCreate(Bundle savedInstanceState)
@@ -60,14 +65,15 @@ public class ProfileActivity extends Activity
         setContentView(R.layout.profile_layout);
 
         Bundle b = getIntent().getExtras();
-        String token = b.getString("token");
-        userId=b.getString("user_id");
+        token = b.getString("token");
+        userId = b.getString("user_id");
+        mConnectAccount=b.getParcelable("connectAccount")   ;
         getComponentOnView();
         onclickListener();
 
         try
         {
-          new Connection().execute(token);
+            new Connection().execute(token, STATUS.INSERT.toString());
         }
         catch (Exception e)
         {
@@ -78,7 +84,7 @@ public class ProfileActivity extends Activity
 
     private void getComponentOnView()
     {
-        pr_edDisplayName =(EditText)findViewById(R.id.pr_edDisplayName);
+        pr_edDisplayName = (EditText) findViewById(R.id.pr_edDisplayName);
         pr_imgAvatar = (ImageView) findViewById(R.id.pr_imgAvatar);
         pr_edFullName = (EditText) findViewById(R.id.pr_edFullName);
         pr_edPhone = (EditText) findViewById(R.id.pr_edPhone);
@@ -87,29 +93,48 @@ public class ProfileActivity extends Activity
         pr_edBirthday = (EditText) findViewById(R.id.pr_edBirthday);
         pr_edCountry = (EditText) findViewById(R.id.pr_edCountry);
         btGenderSelectLeft = (Button) findViewById(R.id.pr_btnSelectLeft_check);
-        btGenderSelectRight = (Button) findViewById(R.id.pr_btnSelectRight_uncheck);
+        btGenderSelectRight = (Button) findViewById(R.id.pr_btnSelectRight_check);
         pr_rlBackGround = (RelativeLayout) findViewById(R.id.pr_rlBackGround);
         pr_btCancel = (Button) findViewById(R.id.pr_btCancel);
-        pr_edDescription=(EditText)findViewById(R.id.pr_edDesciprtion);
+        pr_edDescription = (EditText) findViewById(R.id.pr_edDesciprtion);
+        pr_btSave = (Button) findViewById(R.id.pr_btSave);
     }
-    private void BindDataToProfileView(Profile p)
+
+    private void bindDataToProfileView(Profile p)
     {
-        final String[] countries = getResources().getStringArray(
-                R.array.country_array);
+        countries = getResources().getStringArray(R.array.country_array);
+        country_codes = getResources().getStringArray(R.array.country_code);
 
         pr_edFullName.setText(p.getFull_name());
         pr_edPhone.setText(p.getPhone());
         pr_edBirthday.setText(p.getBirthday());
-        pr_edCountry.setText(countries[p.getCountry_id()].toString());
-        if(p.getGender()==1){
+
+        int index = 0;
+        for (int i = 0; i < country_codes.length; i++)
+        {
+            if (p.getCountry_id().equals(country_codes[i]))
+            {
+                index = i;
+                break;
+            }
+        }
+        pr_edCountry.setText(countries[index]);
+        if (p.getGender() == 1)
+        {
             btGenderSelectLeft.setBackgroundDrawable(getResources().getDrawable(R.drawable.pr_btn_select_left));
             btGenderSelectRight.setBackgroundDrawable(getResources().getDrawable(R.drawable.pr_btn_unselect_right));
-        } else{
+        }
+        else
+        {
             btGenderSelectLeft.setBackgroundDrawable(getResources().getDrawable(R.drawable.pr_btn_unselect_left));
             btGenderSelectRight.setBackgroundDrawable(getResources().getDrawable(R.drawable.pr_btn_select_right));
         }
         pr_edDisplayName.setText(p.getDisplay_name());
         pr_edDescription.setText(p.getDescription());
+
+        Image imageCache=new Image(context);
+        imageCache.DisplayImage(p.getAvatar(),pr_imgAvatar);
+      //  imageCache
     }
 
     private void onclickListener()
@@ -123,6 +148,7 @@ public class ProfileActivity extends Activity
         btGenderSelectRight.setOnClickListener(onclickListener);
         pr_rlBackGround.setOnClickListener(onclickListener);
         pr_btCancel.setOnClickListener(onclickListener);
+        pr_btSave.setOnClickListener(onclickListener);
     }
 
     private final View.OnClickListener onclickListener = new View.OnClickListener()
@@ -161,19 +187,72 @@ public class ProfileActivity extends Activity
                     showDialogCountry();
                     break;
                 case R.id.pr_btnSelectLeft_check:
+                    isCheckedRdbLeft = true;
                     btGenderSelectLeft.setBackgroundDrawable(getResources().getDrawable(R.drawable.pr_btn_select_left));
                     btGenderSelectRight.setBackgroundDrawable(getResources().getDrawable(R.drawable.pr_btn_unselect_right));
                     break;
-                case R.id.pr_btnSelectRight_uncheck:
+                case R.id.pr_btnSelectRight_check:
+                    isCheckedRdbLeft = false;
                     btGenderSelectLeft.setBackgroundDrawable(getResources().getDrawable(R.drawable.pr_btn_unselect_left));
                     btGenderSelectRight.setBackgroundDrawable(getResources().getDrawable(R.drawable.pr_btn_select_right));
                     break;
                 case R.id.pr_btCancel:
-                    startActivity(new Intent(ProfileActivity.this, SlidebarActivity.class));
+                    Intent i=new Intent(ProfileActivity.this, SlidebarActivity.class);
+                    Bundle b=new Bundle();
+                    b.putString("token",token);
+                    b.putString("user_id",userId);
+                    b.putParcelable("connectAccount",mConnectAccount);
+                    i.putExtras(b);
+                    startActivity(i);
+                    break;
+                case R.id.pr_btSave:
+                    updateProfileToServer();
                     break;
             }
         }
     };
+
+    private void updateProfileToServer()
+    {
+        try
+        {
+            new Connection().execute(token, STATUS.UPDATE.toString());
+
+        }
+        catch (Exception e)
+        {
+            e.printStackTrace();
+        }
+
+    }
+
+    private Profile getProfileFromView(Profile p)
+    {
+        p.setDisplay_name(pr_edDisplayName.getText().toString());
+        p.setFull_name(pr_edFullName.getText().toString());
+        p.setPhone(pr_edPhone.getText().toString());
+        p.setBirthday(pr_edBirthday.getText().toString());
+        if (isCheckedRdbLeft == true)
+        {
+            p.setGender(1);
+        }
+        else
+        {
+            p.setGender(2);
+        }
+        int index = 0;
+        for (int i = 0; i < countries.length; i++)
+        {
+            if (pr_edCountry.getText().toString().equals(countries[i]))
+            {
+                index = i;
+                break;
+            }
+        }
+        p.setCountry_id(country_codes[index]);
+        p.setDescription(pr_edDescription.getText().toString());
+        return p;
+    }
 
     private void onTextChange()
     {
@@ -250,6 +329,8 @@ public class ProfileActivity extends Activity
             {
                 final String[] countries = getResources().getStringArray(
                         R.array.country_array);
+                final String[] country_code = getResources().getStringArray(
+                        R.array.country_code);
                 AlertDialog.Builder builder = new AlertDialog.Builder(context);
                 builder.setTitle("Select Country");
 
@@ -393,44 +474,111 @@ public class ProfileActivity extends Activity
         c.drawCircle(bitmap.getWidth() / 2, bitmap.getHeight() / 2, bitmap.getWidth() / 2, paint);
         return circleBitmap;
     }
-        private class Connection extends AsyncTask<String,Void,Profile>
+
+    private class Connection extends AsyncTask<String, Void, Void>
     {
-
+        String status;
 
         @Override
-        protected Profile doInBackground(String... param)
+        protected Void doInBackground(String... param)
         {
-            profile = null;
-            try
-            {
-                //get userID of connectAccount
-//                ParseComServerAuthenticate parseComServer=new ParseComServerAuthenticate();
-//                parseComServer.userSignIn()
-                ParseServerAccessor parseServerAccessor=new ParseServerAccessor();
-                profile=  parseServerAccessor.getProfile(Integer.parseInt(userId), param[0]) ;
-
-            }
-            catch (Exception e)
-            {
-                if( e.getMessage().equals("cannot access my apis")){
-                    //Todo: token expire->call login
-                }
-
-            }
-            return profile;
+            status = param[1];
+            executeProfile(param[0], param[1]);
+            return null;
         }
 
         @Override
-        protected void onPostExecute(Profile p)
+        protected void onPostExecute(Void aVoid)
         {
-            super.onPostExecute(p);
-            if(p!=null){
-                BindDataToProfileView(p);
+            super.onPostExecute(aVoid);
+            Profile p = readFromContentProvider();
+            if (p != null)
+            {
+                bindDataToProfileView(p);
+            }
+            if (status.equals(STATUS.UPDATE.toString()))
+            {
+                Toast.makeText(ProfileActivity.this, "Update Profile success !!!", Toast.LENGTH_LONG).show();
             }
 
         }
-
-
     }
 
+    private void executeProfile(String token, String status)
+    {
+        try
+        {
+            //get Profile from server
+
+            ParseServerAccessor parseServerAccessor = new ParseServerAccessor();
+            Profile profileGetFromServer = parseServerAccessor.getProfile(Integer.parseInt(userId), token);
+
+            //get Profile from local
+            Profile localProfile = null;
+
+            Cursor cursorProfile = getContentResolver().query(GenericContract.PROFILE_CONTENT_URI, null, null, null, null);
+
+            ContentValues showToLocalValues;
+            if (cursorProfile != null && cursorProfile.getCount() > 0)
+            {
+                localProfile = Profile.fromCursor(cursorProfile);
+                cursorProfile.close();
+
+                //update lai local
+                if (profileGetFromServer.equals(localProfile))
+                {
+                    Log.d("profile", TAG + "> No server changes to update local database");
+                }
+                else
+                {
+                    if (status.equals(STATUS.INSERT.toString()))
+                    {
+                        Log.d("profile", TAG + "> Updating local database with remote changes");
+                        //updating local profile
+                        int i = 0;
+
+                        showToLocalValues = profileGetFromServer.getContentValues();
+                        getContentResolver().update(GenericContract.PROFILE_CONTENT_URI, showToLocalValues, null, null);
+                    }
+                    else if (status.equals(STATUS.UPDATE.toString()))
+                    {
+                        Log.d("profile", TAG + "> Updating  remote changes");
+                        //put to remote profile
+                        Profile profile = getProfileFromView(localProfile);
+                        ParseServerAccessor parseServer = new ParseServerAccessor();
+                        parseServer.putProfile(token, userId, profile);
+                        //update lai local
+                        showToLocalValues = profile.getContentValues();
+                        getContentResolver().update(GenericContract.PROFILE_CONTENT_URI, showToLocalValues, null, null);
+
+                    }
+                }
+            }
+            else
+            {
+                //insert new
+                showToLocalValues = profileGetFromServer.getContentValues();
+                getContentResolver().insert(GenericContract.PROFILE_CONTENT_URI, showToLocalValues);
+            }
+
+
+            Log.d("profile", TAG + "> Finished.");
+        }
+        catch (Exception ex)
+        {
+            ex.printStackTrace();
+        }
+    }
+
+    private Profile readFromContentProvider()
+    {
+        Cursor curProfile = getContentResolver().query(GenericContract.PROFILE_CONTENT_URI, null, null, null, null);
+        Profile _profile = null;
+        if (curProfile != null)
+        {
+            _profile = Profile.fromCursor(curProfile);
+            curProfile.close();
+        }
+        return _profile;
+    }
 }

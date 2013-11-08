@@ -63,7 +63,7 @@ public class FirstLaunchActivity extends AccountAuthenticatorActivity
                             {
                                 String accountName=bnd.getString(AccountManager.KEY_ACCOUNT_NAME);
                                 mConnectedAccount=new Account(accountName,AccountGeneral.ACCOUNT_TYPE);
-                                String user_id=mAccountManager.getUserData(mConnectedAccount,"user_id");
+                                String user_id=mAccountManager.getUserData(mConnectedAccount,LoginActivity.USER_ID);
 
                                 Intent intent = new Intent(FirstLaunchActivity.this, SlidebarActivity.class);
                                 Bundle bundle = new Bundle();
