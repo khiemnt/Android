@@ -2,34 +2,52 @@ package com.qsoft.OnlineDio.Activity;
 
 
 import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
+import com.googlecode.androidannotations.annotations.*;
+import com.qsoft.OnlineDio.Authenticate.AccountGeneral;
 import com.qsoft.OnlineDio.Custom.ArrayAdapterSidebarListOption;
 import com.qsoft.OnlineDio.Fragment.HomeFragment;
 import com.qsoft.OnlineDio.R;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
+import com.qsoft.OnlineDio.Util.STATUS;
 
 /**
  * User: Dell 3360
  * Date: 10/20/13
  * Time: 8:39 AM
  */
+@EActivity(R.layout.slidebar)
 public class SlidebarActivity extends FragmentActivity
 {
+    @ViewById(R.id.drawer_layout)
+    protected DrawerLayout mDrawerLayout;
+
+    @ViewById(R.id.slidebar_listOption)
+    protected ListView lvOption;
+
+    @ViewById(R.id.sidebar_ivProfile)
+    protected ImageView ivProfile;
+
+    @ViewById(R.id.left_drawer)
+    protected RelativeLayout rlLeftDrawer;
+
+    @SystemService
+    AccountManager accountManager;
+
     final String[] listOptionName = {"Home", "Favorite", "Following", "Audience", "Genres", "Setting", "Help Center", "Sign Out"};
-    final String[] item = {"HomeFragment", "HomeFragment", "HomeFragment", "HomeFragment", "HomeFragment", "HomeFragment", "HomeFragment"};
     private static final int HOME = 0;
     private static final int FAVORITE = 1;
     private static final int FOLLOWING = 2;
@@ -39,29 +57,26 @@ public class SlidebarActivity extends FragmentActivity
     private static final int HELP_CENTER = 6;
     private static final int SIGN_OUT = 7;
 
-    private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
-    private ListView lvOption;
-    private ImageView ivProfile;
+
     public HomeFragment homeFragment;
-    private RelativeLayout rlLeftDrawer;
     private String token;
     private Account mConnectAccount;
-    private String userId ;
+    private String userId;
 
     public static Context context;
-    protected void onCreate(Bundle savedInstanceState)
+
+    @AfterViews
+    void afterViews()
     {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.slidebar);
         Bundle b = getIntent().getExtras();
-        token = b.getString("token");
-        userId=b.getString("user_id");
-        mConnectAccount=b.getParcelable("connectAccount");
+        token = b.getString(FirstLaunchActivity.AUTHEN_TOKEN);
+        userId = b.getString(LoginActivity.USER_ID);
+        mConnectAccount = b.getParcelable(FirstLaunchActivity.ACCOUNT_CONNECTED);
+        mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
         context = this;
-        setUpUI(token);
+
         setUpDataListOption(this);
-        setUpListenerController();
 
         mDrawerToggle = new ActionBarDrawerToggle(
                 this,                  /* host Activity */
@@ -73,97 +88,91 @@ public class SlidebarActivity extends FragmentActivity
             @Override
             public void onDrawerSlide(View drawerView, float slideOffset)
             {
-                super.onDrawerSlide(drawerView, slideOffset);    //To change body of overridden methods use File | Settings | File Templates.
+                super.onDrawerSlide(drawerView, slideOffset);
             }
 
             @Override
             public void onDrawerOpened(View drawerView)
             {
-                super.onDrawerOpened(drawerView);    //To change body of overridden methods use File | Settings | File Templates.
+                super.onDrawerOpened(drawerView);
             }
 
             @Override
             public void onDrawerClosed(View drawerView)
             {
-                super.onDrawerClosed(drawerView);    //To change body of overridden methods use File | Settings | File Templates.
+                super.onDrawerClosed(drawerView);
             }
         };
+        mDrawerLayout.setDrawerListener(mDrawerToggle);
+        showHomeFragment();
 
+    }
 
+    private void showHomeFragment()
+    {
         Bundle b2 = new Bundle();
-        b2.putString("token2", token);
-        b2.putParcelable("connectAccount",mConnectAccount);
+        b2.putString(FirstLaunchActivity.AUTHEN_TOKEN, token);
+        b2.putParcelable(FirstLaunchActivity.ACCOUNT_CONNECTED, mConnectAccount);
         homeFragment = new HomeFragment();
         homeFragment.setArguments(b2);
 
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.slidebar_homeFragment, homeFragment);
         ft.commit();
-        mDrawerLayout.setDrawerListener(mDrawerToggle);
     }
 
-    private void setUpUI(String token)
+    @ItemClick(R.id.slidebar_listOption)
+    void slideBarItemClickListener(int index)
     {
-        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-        mDrawerLayout.setDrawerShadow(R.drawable.drawer_shadow, GravityCompat.START);
-        lvOption = (ListView) findViewById(R.id.slidebar_listOption);
-        ivProfile = (ImageView) findViewById(R.id.sidebar_ivProfile);
-
-        rlLeftDrawer = (RelativeLayout) findViewById(R.id.left_drawer);
-    }
-
-    private void setUpListenerController()
-    {
-        lvOption.setOnItemClickListener(onItemClickListener);
-        ivProfile.setOnClickListener(onClickListener);
-    }
-
-    private final ListView.OnItemClickListener onItemClickListener = new AdapterView.OnItemClickListener()
-    {
-        @Override
-        public void onItemClick(AdapterView<?> adapterView, View view, final int index, long l)
+        final FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        switch (index)
         {
-            final FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-            switch (index)
-            {
-                case HOME:
-                    ft.replace(R.id.slidebar_homeFragment, new HomeFragment(), "HomeFragment");
-                    ft.addToBackStack("HomeFragment");
-                    ft.commit();
-                    break;
-                case SIGN_OUT:
-                    startActivity(new Intent(getApplicationContext(), LoginActivity.class));
-                    break;
-            }
-            setCloseListOption();
+            case HOME:
+                Bundle b2 = new Bundle();
+                b2.putString(FirstLaunchActivity.AUTHEN_TOKEN, token);
+                b2.putParcelable(FirstLaunchActivity.ACCOUNT_CONNECTED, mConnectAccount);
+                homeFragment = new HomeFragment();
+                homeFragment.setArguments(b2);
+                ft.replace(R.id.slidebar_homeFragment, homeFragment, "HomeFragment");
+                ft.addToBackStack("HomeFragment");
+                ft.commit();
+                break;
+            case SIGN_OUT:
+                accountManager.removeAccount(mConnectAccount, null, null);
+                final Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                intent.putExtra(LoginActivity.ARG_ACCOUNT_TYPE, AccountGeneral.ACCOUNT_TYPE);
+                intent.putExtra(LoginActivity.ARG_AUTH_TYPE, AccountGeneral.AUTHTOKEN_TYPE_FULL_ACCESS);
+                intent.putExtra(LoginActivity.ARG_IS_ADDING_NEW_ACCOUNT, true);
+                intent.putExtra(STATUS.LOGIN.toString(), STATUS.LOGIN_AGAIN.toString());
+                final Bundle bundle = new Bundle();
+                bundle.putParcelable(AccountManager.KEY_INTENT, intent);
+                startActivity(intent);
+                break;
         }
-    };
+        setCloseListOption();
+    }
 
-    private final View.OnClickListener onClickListener = new View.OnClickListener()
+    @Click(R.id.sidebar_ivProfile)
+    public void onClick(View view)
     {
-        @Override
-        public void onClick(View view)
+        switch (view.getId())
         {
-            switch (view.getId())
-            {
-                case R.id.sidebar_ivProfile:
-                    showProfile();
-                    setCloseListOption();
-                    break;
-            }
-
+            case R.id.sidebar_ivProfile:
+                showProfile();
+                setCloseListOption();
+                break;
         }
-    };
+
+    }
+
 
     private void showProfile()
     {
-        Intent i=new Intent(this, ProfileActivity.class);
-        Bundle b=new Bundle();
-        b.putString("token",token);
-        b.putString("user_id",userId);
-        b.putParcelable("connectAccount",mConnectAccount);
-        i.putExtras(b);
-        startActivity(i);
+        Intent intent = new Intent(this, ProfileActivity_.class);
+        intent.putExtra(FirstLaunchActivity.AUTHEN_TOKEN, token);
+        intent.putExtra(LoginActivity.USER_ID, userId);
+        intent.putExtra(FirstLaunchActivity.ACCOUNT_CONNECTED, mConnectAccount);
+        startActivity(intent);
     }
 
     private void setUpDataListOption(Context context)

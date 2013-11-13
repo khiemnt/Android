@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.widget.EditText;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MyActivity extends Activity
 {
     EditText edString;
@@ -28,6 +31,7 @@ public class MyActivity extends Activity
         super.onStop();
         SharedPreferences setting = PreferenceManager.getDefaultSharedPreferences(this);
         SharedPreferences.Editor editor = setting.edit();
+        List<Person> list=new ArrayList<Person>();
         editor.putString("savingString", edString.getText().toString());
         editor.commit();
     }

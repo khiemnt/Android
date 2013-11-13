@@ -7,7 +7,6 @@ import android.accounts.OperationCanceledException;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
@@ -20,34 +19,38 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
+import com.qsoft.OnlineDio.Activity.FirstLaunchActivity;
 import com.qsoft.OnlineDio.Activity.SlidebarActivity;
 import com.qsoft.OnlineDio.Adapter.FeedsAdapterCustom;
 import com.qsoft.OnlineDio.Authenticate.AccountGeneral;
 import com.qsoft.OnlineDio.DB.GenericContract;
 import com.qsoft.OnlineDio.Model.Feed;
 import com.qsoft.OnlineDio.R;
+import com.qsoft.OnlineDio.Validate.Constant;
+import com.qsoft.OnlineDio.Validate.NetworkUtil;
 
 import java.io.IOException;
 import java.util.ArrayList;
 
 public class HomeFragment extends Fragment
 {
-    private Button btNavigate;
+    private Button btNavigate,btGlobal;
     private static ListView home_lvDetail;
     String token;
-    public static String newToken;
     private Account mConnectAccount;
     private AccountManager accountManager;
 
 
-    public static Handler handler = new Handler() {
+    public static Handler handler = new Handler()
+    {
 
-        public void handleMessage(Message msg) {
+        public void handleMessage(Message msg)
+        {
 
             String aResponse = msg.getData().getString("message");
 
-            if ((null != aResponse)) {
-              //  Toast.makeText(getActivity(),"fa",Toast.LENGTH_SHORT).show();
+            if ((null != aResponse))
+            {
                 ArrayList<Feed> feedList = readFromContentProvider();
                 if (feedList != null && feedList.size() > 0)
                 {
@@ -55,74 +58,76 @@ public class HomeFragment extends Fragment
                     setUpDataToHomeListView(SlidebarActivity.context, feedList);
                 }
             }
-            else
-            {
-               // Toast.makeText(getActivity(),"345",Toast.LENGTH_SHORT).show();
-            }
-
         }
     };
+
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState)
     {
         View view = inflater.inflate(R.layout.home_layout, null);
         Bundle bundle = getArguments();
-         token = bundle.getString("token2");
-        mConnectAccount = bundle.getParcelable("connectAccount");
+        token = bundle.getString(FirstLaunchActivity.AUTHEN_TOKEN);
+        mConnectAccount = bundle.getParcelable(FirstLaunchActivity.ACCOUNT_CONNECTED);
         setUpUI(view);
         setUpListenerController();
-//        if (mConnectAccount == null)
-//        {
-//            return null;
-//        }
-//        try
-//        {
-//            new Connection().execute(token);
-//        }
-//        catch (Exception ex)
-//        {
-//            ex.getMessage();
-//        }
-
 
         // Create Inner Thread Class
-        Thread background = new Thread(new Runnable() {
+        Thread background = new Thread(new Runnable()
+        {
             // After call for background.start this run method call
-            public void run() {
-                try {
-                    String isSync="ok";
+            public void run()
+            {
+                try
+                {
+                    String isSync = "ok";
 
                     threadMsg(isSync);
 
-                } catch (Throwable t) {
+                }
+                catch (Throwable t)
+                {
                     // just end the background thread
                     Log.i("Animation", "Thread  exception " + t);
                 }
             }
 
-            private void threadMsg(String msg) {
+            private void threadMsg(String msg)
+            {
 
-                if (!msg.equals(null) && !msg.equals("")) {
+                if (!msg.equals(null) && !msg.equals(""))
+                {
 
-                    refreshTokenExpires(mConnectAccount,token);
-                    Bundle bundle1 = new Bundle();
-                    bundle1.putBoolean(ContentResolver.SYNC_EXTRAS_FORCE, true);
-                    bundle1.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true); // Performing a sync no matter if it's off
-                    bundle1.putBoolean(ContentResolver.SYNC_EXTRAS_EXPEDITED, true); // Performing a sync no matter if it's off
-                    ContentResolver.requestSync(mConnectAccount, GenericContract.AUTHORITY, bundle1);
+                    refreshTokenExpires(mConnectAccount, token);
+                    requestSync();
 
                 }
             }
-
-            // Define the Handler that receives messages from the thread and update the progress
-
-
         });
         // Start Thread
-        background.start();  //After call start method thread called run Method
+        if (checkNetwork())
+        {
+            background.start();  //After call start method thread called run Method
+        }
+        else
+        {
+            ArrayList<Feed> feedList = readFromContentProvider();
+            if (feedList != null && feedList.size() > 0)
+            {
 
+                setUpDataToHomeListView(SlidebarActivity.context, feedList);
+            }
+        }
 
         return view;
+    }
+
+    private void requestSync()
+    {
+        Bundle bundle1 = new Bundle();
+        bundle1.putBoolean(ContentResolver.SYNC_EXTRAS_FORCE, true);
+        bundle1.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true); // Performing a sync no matter if it's off
+        bundle1.putBoolean(ContentResolver.SYNC_EXTRAS_EXPEDITED, true); // Performing a sync no matter if it's off
+        ContentResolver.requestSync(mConnectAccount, GenericContract.AUTHORITY, bundle1);
     }
 
 
@@ -145,6 +150,7 @@ public class HomeFragment extends Fragment
     private void setUpListenerController()
     {
         btNavigate.setOnClickListener(onClickListener);
+        btGlobal.setOnClickListener(onClickListener);
         home_lvDetail.setOnItemClickListener(onItemClickListener);
     }
 
@@ -171,6 +177,9 @@ public class HomeFragment extends Fragment
                 case R.id.btNavigate:
                     showMenu();
                     break;
+                case R.id.btGlobal:
+                    requestSync();
+                    break;
             }
         }
     };
@@ -181,7 +190,7 @@ public class HomeFragment extends Fragment
     }
 
     private void doShowProgram()
-    {
+        {
         final FragmentTransaction ft = getFragmentManager().beginTransaction();
         ft.replace(R.id.slidebar_homeFragment, new ProgramFragment(), "ProgramFragment");
         ft.addToBackStack("ProgramFragment");
@@ -191,54 +200,11 @@ public class HomeFragment extends Fragment
     private void setUpUI(View view)
     {
         btNavigate = (Button) view.findViewById(R.id.btNavigate);
+        btGlobal=(Button)view.findViewById(R.id.btGlobal);
         home_lvDetail = (ListView) view.findViewById(R.id.home_lvDetail);
+
     }
 
-    private class Connection extends AsyncTask<String, Void, Void>
-    {
-        @Override
-        protected Void doInBackground(String... param)
-        {
-            refreshTokenExpires(mConnectAccount, param[0]);
-            Bundle bundle1 = new Bundle();
-            bundle1.putBoolean(ContentResolver.SYNC_EXTRAS_FORCE, true);
-            bundle1.putBoolean(ContentResolver.SYNC_EXTRAS_MANUAL, true); // Performing a sync no matter if it's off
-            bundle1.putBoolean(ContentResolver.SYNC_EXTRAS_EXPEDITED, true); // Performing a sync no matter if it's off
-            ContentResolver.requestSync(mConnectAccount, GenericContract.AUTHORITY, bundle1);
-
-            return null;
-        }
-
-        @Override
-        protected void onPostExecute(Void sync)
-        {
-            super.onPostExecute(sync);
-            ArrayList<Feed> feedList = readFromContentProvider();
-            if (feedList != null && feedList.size() > 0)
-            {
-                setUpDataToHomeListView(getActivity(), feedList);
-            }
-        }
-
-        @Override
-        protected void onCancelled(Void aVoid)
-        {
-            super.onCancelled(aVoid);    //To change body of overridden methods use File | Settings | File Templates.
-        }
-
-        @Override
-        protected void onCancelled()
-        {
-            super.onCancelled();    //To change body of overridden methods use File | Settings | File Templates.
-        }
-
-        @Override
-        protected void onProgressUpdate(Void... values)
-        {
-            super.onProgressUpdate(values);
-
-        }
-    }
 
     private void refreshTokenExpires(Account mConnectAccount, String token)
     {
@@ -248,7 +214,7 @@ public class HomeFragment extends Fragment
         accountManager.invalidateAuthToken(AccountGeneral.ACCOUNT_TYPE, token);
         try
         {
-            String newToken = accountManager.getAuthToken(mConnectAccount, AccountGeneral.AUTHTOKEN_TYPE_FULL_ACCESS, true, null, null).getResult().getString(AccountManager.KEY_AUTHTOKEN);
+             accountManager.getAuthToken(mConnectAccount, AccountGeneral.AUTHTOKEN_TYPE_FULL_ACCESS, true, null, null).getResult().getString(AccountManager.KEY_AUTHTOKEN);
         }
 
         catch (OperationCanceledException e)
@@ -264,6 +230,17 @@ public class HomeFragment extends Fragment
             e.printStackTrace();
         }
 
+    }
+
+    private boolean checkNetwork()
+    {
+        boolean result = true;
+        String status = NetworkUtil.getConnectivityStatusString(SlidebarActivity.context);
+        if (status.equals(Constant.NOT_CONNECTED_TO_INTERNET.getValue()))
+        {
+            result = false;
+        }
+        return result;
     }
 }
 

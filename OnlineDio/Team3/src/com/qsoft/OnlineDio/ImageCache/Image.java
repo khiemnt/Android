@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.util.Log;
 import android.widget.ImageView;
 import com.qsoft.OnlineDio.R;
+import com.qsoft.OnlineDio.Util.ConvertImage;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -23,7 +24,7 @@ public class Image
     FileCache fileCache;
     private Map<ImageView, String> imageViews = Collections.synchronizedMap(new WeakHashMap<ImageView, String>());
     ExecutorService executor;
-    final int stub_id = R.drawable.ic_launcher;
+    final int stub_id = R.drawable.no_avatar;
 
     public Image(Context context)
     {
@@ -36,6 +37,7 @@ public class Image
         imageViews.put(view, url);//put image view with url to the map imageViews
 
         Bitmap bitmap = cacheManager.get(url);//get bitmap has id is url from cache
+
         if (bitmap == null)
         {
             QueuePhotos(url, view);
@@ -43,7 +45,9 @@ public class Image
         }
         else
         {
-            view.setImageBitmap(bitmap);
+            ConvertImage convertImage=new ConvertImage();
+            Bitmap _bitmap= convertImage.resizeBitMap(bitmap);
+              view.setImageBitmap(bitmap);
         }
     }
 

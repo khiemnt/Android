@@ -9,5 +9,5 @@ package com.qsoft.OnlineDio.Util;
  */
 public enum STATUS
 {
-     INSERT,UPDATE;
+     INSERT,UPDATE,LOGIN,LOGIN_NEW,LOGIN_AGAIN;
 }

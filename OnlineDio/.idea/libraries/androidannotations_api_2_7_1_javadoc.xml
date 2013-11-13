@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="androidannotations-api-2.7.1-javadoc">
+    <CLASSES />
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../liberary/androidannotations-bundle-2.7.1/javadoc/androidannotations-api-2.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

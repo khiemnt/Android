@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
 import com.qsoft.OnlineDio.Activity.LoginActivity;
+import com.qsoft.OnlineDio.Util.STATUS;
 
 import static android.accounts.AccountManager.KEY_BOOLEAN_RESULT;
 import static com.qsoft.OnlineDio.Authenticate.AccountGeneral.*;
@@ -41,7 +42,7 @@ public class OnlineDioAuthenticator extends AbstractAccountAuthenticator
         intent.putExtra(LoginActivity.ARG_AUTH_TYPE, authTokenType);
         intent.putExtra(LoginActivity.ARG_IS_ADDING_NEW_ACCOUNT, true);
         intent.putExtra(AccountManager.KEY_ACCOUNT_AUTHENTICATOR_RESPONSE, response);
-
+         intent.putExtra(STATUS.LOGIN.toString(),STATUS.LOGIN_NEW.toString());
         final Bundle bundle = new Bundle();
         bundle.putParcelable(AccountManager.KEY_INTENT, intent);
         return bundle;

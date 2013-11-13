@@ -42,8 +42,12 @@
                 android:orientation="vertical"
                 android:layout_width="fill_parent"
                 android:layout_height="140dp" android:layout_gravity="left"
-                android:background="@drawable/pr_background"
+
                 android:baselineAligned="false" android:clickable="true" android:focusable="true">
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="140dp"
+                    android:id="@+id/pr_ivCoverImage" android:scaleType="fitXY"/>
             <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -52,7 +56,7 @@
                     android:scaleType="centerCrop"
                     android:layout_marginBottom="10dp"
                     android:layout_gravity="left" android:layout_marginLeft="10dp"
-                    android:layout_alignParentLeft="false"/>
+                    android:layout_alignParentLeft="false" />
             <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -166,7 +170,8 @@
                       android:singleLine="true" android:hint="Your phone no."
                       android:layout_alignParentLeft="true" android:layout_marginLeft="130dp"
                       android:background="@null"
-                      android:layout_alignBottom="@+id/lblPhone" android:maxLength="15" android:phoneNumber="true"/>
+                      android:layout_alignBottom="@+id/lblPhone" android:maxLength="15" android:phoneNumber="true"
+                      android:enabled="true"/>
             <ImageButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -201,7 +206,8 @@
                     android:layout_marginLeft="130dp"
                     android:background="@null"
                     android:layout_alignBottom="@id/lblBirthday"
-                    android:hint="Your birthday" android:singleLine="true"/>
+                    android:hint="Your birthday" android:singleLine="true" android:editable="false"
+                    android:enabled="true"/>
             <View
                     android:id="@+id/line3"
                     android:layout_width="match_parent"
@@ -268,7 +274,10 @@
                     android:layout_below="@id/line4"
                     android:layout_toRightOf="@id/lblCountry"
                     android:layout_marginLeft="45dp"
-                    android:layout_marginTop="2dp" android:singleLine="true"/>
+                    android:layout_marginTop="2dp"
+                    android:singleLine="true"
+                    android:enabled="true"
+                    android:editable="false"/>
             <ImageView
                     android:id="@+id/pr_ivArrow"
                     android:layout_width="wrap_content"

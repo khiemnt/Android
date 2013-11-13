@@ -15,7 +15,6 @@ public class OnlineDioAuthenticatorService extends Service
     @Override
     public IBinder onBind(Intent intent)
     {
-
         OnlineDioAuthenticator authenticator = new OnlineDioAuthenticator(this);
         return authenticator.getIBinder();
     }

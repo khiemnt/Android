@@ -39,6 +39,8 @@
     <orderEntry type="jdk" jdkName="Android 4.3 Platform (2)" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="v4" level="project" />
+    <orderEntry type="library" name="androidannotations-api-2.7.1-javadoc" level="project" />
+    <orderEntry type="library" name="androidannotations-2.7.1" level="project" />
   </component>
 </module>
 
